@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE / OS
+.vscode/
+.DS_Store
+
+# Environment variables
+.env
+
+# Data and outputs (do not commit large datasets or outputs)
+datasets/
+output/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
