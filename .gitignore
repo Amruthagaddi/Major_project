@@ -26,3 +26,4 @@ output/
 
 # Notebook checkpoints
 .ipynb_checkpoints/
+venv/
