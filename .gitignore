@@ -27,3 +27,6 @@ output/
 # Notebook checkpoints
 .ipynb_checkpoints/
 venv/
+output/processed_dataset/
+venv/
+datasets/
