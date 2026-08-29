@@ -171,15 +171,31 @@ while True:
 
                 print("Selected bounding box:", bbox)
 
-                # Create tracker
-                tracker = cv2.TrackerCSRT_create()
+                # Create tracker with fallback
+                def create_tracker():
+                    tracker_fns = [
+                        lambda: cv2.TrackerCSRT_create(),
+                        lambda: cv2.TrackerKCF_create(),
+                        lambda: cv2.TrackerMIL_create(),
+                        lambda: cv2.legacy.TrackerCSRT_create(),
+                    ]
+                    for fn in tracker_fns:
+                        try:
+                            return fn()
+                        except (AttributeError, Exception):
+                            continue
+                    return None
 
-                # Initialize tracker
-                tracker.init(frame, bbox)
+                tracker = create_tracker()
 
-                tracking_started = True
-
-                print("Tracking started!")
+                if tracker is not None:
+                    # Initialize tracker
+                    tracker.init(frame, bbox)
+                    tracking_started = True
+                    print("Tracking started!")
+                else:
+                    print("Error: No compatible OpenCV tracker available.")
+                    tracking_started = False
 
             else:
 
