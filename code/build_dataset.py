@@ -3,6 +3,7 @@ import os
 import re
 import numpy as np
 import argparse
+import json
 
 
 # ============================================================
@@ -55,6 +56,27 @@ def detect_person_hog(frame):
         padding=(8, 8),
         scale=1.05
     )
+
+    # If no detections, try upscaling the frame once to improve recall
+    if len(rects) == 0:
+        # upscale 2x
+        small = frame
+        try:
+            up = cv2.resize(frame, (frame.shape[1] * 2, frame.shape[0] * 2))
+            rects_u, _ = hog.detectMultiScale(up, winStride=(8, 8), padding=(8, 8), scale=1.05)
+            if len(rects_u) > 0:
+                # map first/largest rect back to original coordinates
+                areas_u = [w * h for (x, y, w, h) in rects_u]
+                idx_u = int(np.argmax(areas_u))
+                xu, yu, wu, hu = rects_u[idx_u]
+                # scale back
+                x = int(xu // 2)
+                y = int(yu // 2)
+                w = int(wu // 2)
+                h = int(hu // 2)
+                rects = [(x, y, w, h)]
+        except Exception:
+            pass
 
     if len(rects) == 0:
         return None
@@ -296,6 +318,13 @@ def extract_sequences(
 
     total_saved = 0
 
+    # initialize per-sequence stats counters
+    stats = {
+        "total_frames": 0,
+        "detected": 0,
+        "fallback": 0
+    }
+
     for start, end in ranges:
 
         length = end - start + 1
@@ -353,6 +382,8 @@ def extract_sequences(
 
                     continue
 
+                stats["total_frames"] += 1
+
                 # Choose detector per invocation (hog or bg)
                 detector = globals().get("__detector_choice", "hog")
 
@@ -374,6 +405,8 @@ def extract_sequences(
 
                 if detected is not None:
 
+                    stats["detected"] += 1
+
                     x, y, w, h = detected
 
                     # safe crop
@@ -385,6 +418,8 @@ def extract_sequences(
                     crop = frame[y:y + h, x:x + w]
 
                 else:
+
+                    stats["fallback"] += 1
 
                     # Fallback: center square crop
                     fh, fw = frame.shape[:2]
@@ -435,6 +470,12 @@ def extract_sequences(
             current_start += SEQUENCE_LENGTH
 
     cap.release()
+
+    # expose last sequence stats for aggregation
+    try:
+        globals()["__last_sequence_stats"] = stats
+    except Exception:
+        pass
 
     return total_saved
 
@@ -530,6 +571,22 @@ def main():
             split
         )
 
+        # collect per-run stats if returned via globals (extract_sequences writes per-sequence stats)
+        per_run_stats = globals().get("__detection_stats", None)
+        if per_run_stats is None:
+            globals()["__detection_stats"] = {
+                "total_frames": 0,
+                "detected": 0,
+                "fallback": 0
+            }
+        # accumulate
+        seq_stats = globals().pop("__last_sequence_stats", None)
+        if seq_stats:
+            s = globals()["__detection_stats"]
+            s["total_frames"] += seq_stats.get("total_frames", 0)
+            s["detected"] += seq_stats.get("detected", 0)
+            s["fallback"] += seq_stats.get("fallback", 0)
+
         # Clear per-video bg subtractor
         globals().pop("__bg_subtractor", None)
 
@@ -548,6 +605,17 @@ def main():
     )
 
     print("=" * 60)
+
+    # Write aggregated detection stats if available
+    stats = globals().get("__detection_stats", None)
+    if stats is not None:
+        os.makedirs(os.path.dirname("output/detection_stats.json"), exist_ok=True)
+        try:
+            with open("output/detection_stats.json", "w") as sf:
+                json.dump(stats, sf, indent=2)
+            print("Wrote detection stats to: output/detection_stats.json")
+        except Exception:
+            pass
 
 
 if __name__ == "__main__":
