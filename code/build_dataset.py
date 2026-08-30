@@ -681,6 +681,21 @@ def main():
             split
         )
 
+        # Print per-video detection breakdown (HOG vs fallback) if available
+        per_video = globals().get("__per_video_stats", {})
+        key = f"{person}_{activity}_{condition}"
+        if key in per_video:
+            pv = per_video[key]
+            tf = pv.get("total_frames", 0)
+            det = pv.get("detected", 0)
+            fb = pv.get("fallback", 0)
+            pct_det = (det / tf * 100) if tf > 0 else 0.0
+            pct_fb = (fb / tf * 100) if tf > 0 else 0.0
+            print(f"  Per-video detection: {det}/{tf} frames detected ({pct_det:.1f}%), fallback {fb} ({pct_fb:.1f}%)")
+            # If running with HOG/auto and fallback dominates, recommend bg
+            if detector_choice in ("hog", "auto") and tf > 0 and det < tf * 0.5:
+                print("  WARNING: HOG missed majority of frames for this video — consider re-running with --detector bg")
+
         # collect per-run stats if returned via globals (extract_sequences writes per-sequence stats)
         per_run_stats = globals().get("__detection_stats", None)
         if per_run_stats is None:
