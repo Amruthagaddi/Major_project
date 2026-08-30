@@ -1,0 +1,2997 @@
+{
+  "person01_boxing_d1": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person01_boxing_d2": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person01_boxing_d3": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person01_boxing_d4": {
+    "total_frames": 280,
+    "detected": 280,
+    "fallback": 0
+  },
+  "person01_handclapping_d1": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person01_handclapping_d2": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person01_handclapping_d3": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person01_handclapping_d4": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person01_handwaving_d1": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person01_handwaving_d2": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person01_handwaving_d3": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person01_handwaving_d4": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person01_jogging_d1": {
+    "total_frames": 160,
+    "detected": 142,
+    "fallback": 18
+  },
+  "person01_jogging_d2": {
+    "total_frames": 240,
+    "detected": 220,
+    "fallback": 20
+  },
+  "person01_jogging_d3": {
+    "total_frames": 160,
+    "detected": 150,
+    "fallback": 10
+  },
+  "person01_jogging_d4": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person01_running_d1": {
+    "total_frames": 100,
+    "detected": 88,
+    "fallback": 12
+  },
+  "person01_running_d2": {
+    "total_frames": 160,
+    "detected": 145,
+    "fallback": 15
+  },
+  "person01_running_d3": {
+    "total_frames": 100,
+    "detected": 88,
+    "fallback": 12
+  },
+  "person01_running_d4": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person01_walking_d1": {
+    "total_frames": 240,
+    "detected": 226,
+    "fallback": 14
+  },
+  "person01_walking_d2": {
+    "total_frames": 460,
+    "detected": 455,
+    "fallback": 5
+  },
+  "person01_walking_d3": {
+    "total_frames": 260,
+    "detected": 240,
+    "fallback": 20
+  },
+  "person01_walking_d4": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person02_boxing_d1": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person02_boxing_d2": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person02_boxing_d3": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person02_boxing_d4": {
+    "total_frames": 500,
+    "detected": 500,
+    "fallback": 0
+  },
+  "person02_handclapping_d1": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person02_handclapping_d2": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person02_handclapping_d3": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person02_handclapping_d4": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person02_handwaving_d1": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person02_handwaving_d2": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person02_handwaving_d3": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person02_handwaving_d4": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person02_jogging_d1": {
+    "total_frames": 160,
+    "detected": 144,
+    "fallback": 16
+  },
+  "person02_jogging_d2": {
+    "total_frames": 460,
+    "detected": 455,
+    "fallback": 5
+  },
+  "person02_jogging_d3": {
+    "total_frames": 240,
+    "detected": 226,
+    "fallback": 14
+  },
+  "person02_jogging_d4": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person02_running_d1": {
+    "total_frames": 160,
+    "detected": 144,
+    "fallback": 16
+  },
+  "person02_running_d2": {
+    "total_frames": 340,
+    "detected": 330,
+    "fallback": 10
+  },
+  "person02_running_d3": {
+    "total_frames": 240,
+    "detected": 229,
+    "fallback": 11
+  },
+  "person02_running_d4": {
+    "total_frames": 220,
+    "detected": 220,
+    "fallback": 0
+  },
+  "person02_walking_d1": {
+    "total_frames": 240,
+    "detected": 222,
+    "fallback": 18
+  },
+  "person02_walking_d2": {
+    "total_frames": 760,
+    "detected": 755,
+    "fallback": 5
+  },
+  "person02_walking_d3": {
+    "total_frames": 320,
+    "detected": 307,
+    "fallback": 13
+  },
+  "person02_walking_d4": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person03_boxing_d1": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person03_boxing_d2": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person03_boxing_d3": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person03_boxing_d4": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person03_handclapping_d1": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person03_handclapping_d2": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person03_handclapping_d3": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person03_handclapping_d4": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person03_handwaving_d1": {
+    "total_frames": 520,
+    "detected": 520,
+    "fallback": 0
+  },
+  "person03_handwaving_d2": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person03_handwaving_d3": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person03_handwaving_d4": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person03_jogging_d1": {
+    "total_frames": 160,
+    "detected": 141,
+    "fallback": 19
+  },
+  "person03_jogging_d2": {
+    "total_frames": 460,
+    "detected": 450,
+    "fallback": 10
+  },
+  "person03_jogging_d3": {
+    "total_frames": 160,
+    "detected": 149,
+    "fallback": 11
+  },
+  "person03_jogging_d4": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person03_running_d1": {
+    "total_frames": 120,
+    "detected": 111,
+    "fallback": 9
+  },
+  "person03_running_d2": {
+    "total_frames": 280,
+    "detected": 273,
+    "fallback": 7
+  },
+  "person03_running_d3": {
+    "total_frames": 80,
+    "detected": 64,
+    "fallback": 16
+  },
+  "person03_running_d4": {
+    "total_frames": 140,
+    "detected": 140,
+    "fallback": 0
+  },
+  "person03_walking_d1": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person03_walking_d2": {
+    "total_frames": 820,
+    "detected": 818,
+    "fallback": 2
+  },
+  "person03_walking_d3": {
+    "total_frames": 360,
+    "detected": 353,
+    "fallback": 7
+  },
+  "person03_walking_d4": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person04_boxing_d1": {
+    "total_frames": 280,
+    "detected": 276,
+    "fallback": 4
+  },
+  "person04_boxing_d2": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person04_boxing_d3": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person04_boxing_d4": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person04_handclapping_d1": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person04_handclapping_d2": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person04_handclapping_d3": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person04_handclapping_d4": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person04_handwaving_d1": {
+    "total_frames": 560,
+    "detected": 560,
+    "fallback": 0
+  },
+  "person04_handwaving_d2": {
+    "total_frames": 540,
+    "detected": 540,
+    "fallback": 0
+  },
+  "person04_handwaving_d3": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person04_handwaving_d4": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person04_jogging_d1": {
+    "total_frames": 160,
+    "detected": 146,
+    "fallback": 14
+  },
+  "person04_jogging_d2": {
+    "total_frames": 360,
+    "detected": 353,
+    "fallback": 7
+  },
+  "person04_jogging_d3": {
+    "total_frames": 160,
+    "detected": 148,
+    "fallback": 12
+  },
+  "person04_jogging_d4": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person04_running_d1": {
+    "total_frames": 120,
+    "detected": 110,
+    "fallback": 10
+  },
+  "person04_running_d2": {
+    "total_frames": 220,
+    "detected": 210,
+    "fallback": 10
+  },
+  "person04_running_d3": {
+    "total_frames": 80,
+    "detected": 72,
+    "fallback": 8
+  },
+  "person04_running_d4": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person04_walking_d1": {
+    "total_frames": 320,
+    "detected": 301,
+    "fallback": 19
+  },
+  "person04_walking_d2": {
+    "total_frames": 600,
+    "detected": 587,
+    "fallback": 13
+  },
+  "person04_walking_d3": {
+    "total_frames": 280,
+    "detected": 259,
+    "fallback": 21
+  },
+  "person04_walking_d4": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person05_boxing_d1": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person05_boxing_d2": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person05_boxing_d3": {
+    "total_frames": 380,
+    "detected": 378,
+    "fallback": 2
+  },
+  "person05_boxing_d4": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person05_handclapping_d1": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person05_handclapping_d2": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person05_handclapping_d3": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person05_handclapping_d4": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person05_handwaving_d1": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person05_handwaving_d2": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person05_handwaving_d3": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person05_handwaving_d4": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person05_jogging_d1": {
+    "total_frames": 160,
+    "detected": 151,
+    "fallback": 9
+  },
+  "person05_jogging_d2": {
+    "total_frames": 220,
+    "detected": 216,
+    "fallback": 4
+  },
+  "person05_jogging_d3": {
+    "total_frames": 160,
+    "detected": 146,
+    "fallback": 14
+  },
+  "person05_jogging_d4": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person05_running_d1": {
+    "total_frames": 80,
+    "detected": 63,
+    "fallback": 17
+  },
+  "person05_running_d2": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person05_running_d3": {
+    "total_frames": 140,
+    "detected": 133,
+    "fallback": 7
+  },
+  "person05_running_d4": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person05_walking_d1": {
+    "total_frames": 260,
+    "detected": 235,
+    "fallback": 25
+  },
+  "person05_walking_d2": {
+    "total_frames": 400,
+    "detected": 368,
+    "fallback": 32
+  },
+  "person05_walking_d3": {
+    "total_frames": 280,
+    "detected": 263,
+    "fallback": 17
+  },
+  "person05_walking_d4": {
+    "total_frames": 360,
+    "detected": 358,
+    "fallback": 2
+  },
+  "person06_boxing_d1": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person06_boxing_d2": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person06_boxing_d3": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person06_boxing_d4": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person06_handclapping_d1": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person06_handclapping_d2": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person06_handclapping_d3": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person06_handclapping_d4": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person06_handwaving_d1": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person06_handwaving_d2": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person06_handwaving_d3": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person06_handwaving_d4": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person06_jogging_d1": {
+    "total_frames": 180,
+    "detected": 170,
+    "fallback": 10
+  },
+  "person06_jogging_d2": {
+    "total_frames": 320,
+    "detected": 313,
+    "fallback": 7
+  },
+  "person06_jogging_d3": {
+    "total_frames": 160,
+    "detected": 139,
+    "fallback": 21
+  },
+  "person06_jogging_d4": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person06_running_d1": {
+    "total_frames": 140,
+    "detected": 133,
+    "fallback": 7
+  },
+  "person06_running_d2": {
+    "total_frames": 220,
+    "detected": 204,
+    "fallback": 16
+  },
+  "person06_running_d3": {
+    "total_frames": 100,
+    "detected": 81,
+    "fallback": 19
+  },
+  "person06_running_d4": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person06_walking_d1": {
+    "total_frames": 240,
+    "detected": 225,
+    "fallback": 15
+  },
+  "person06_walking_d2": {
+    "total_frames": 580,
+    "detected": 566,
+    "fallback": 14
+  },
+  "person06_walking_d3": {
+    "total_frames": 240,
+    "detected": 226,
+    "fallback": 14
+  },
+  "person06_walking_d4": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person07_boxing_d1": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person07_boxing_d2": {
+    "total_frames": 280,
+    "detected": 279,
+    "fallback": 1
+  },
+  "person07_boxing_d3": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person07_boxing_d4": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person07_handclapping_d1": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person07_handclapping_d2": {
+    "total_frames": 500,
+    "detected": 500,
+    "fallback": 0
+  },
+  "person07_handclapping_d3": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person07_handclapping_d4": {
+    "total_frames": 500,
+    "detected": 500,
+    "fallback": 0
+  },
+  "person07_handwaving_d1": {
+    "total_frames": 740,
+    "detected": 740,
+    "fallback": 0
+  },
+  "person07_handwaving_d2": {
+    "total_frames": 720,
+    "detected": 720,
+    "fallback": 0
+  },
+  "person07_handwaving_d3": {
+    "total_frames": 560,
+    "detected": 560,
+    "fallback": 0
+  },
+  "person07_handwaving_d4": {
+    "total_frames": 740,
+    "detected": 740,
+    "fallback": 0
+  },
+  "person07_jogging_d1": {
+    "total_frames": 160,
+    "detected": 145,
+    "fallback": 15
+  },
+  "person07_jogging_d2": {
+    "total_frames": 240,
+    "detected": 227,
+    "fallback": 13
+  },
+  "person07_jogging_d3": {
+    "total_frames": 160,
+    "detected": 144,
+    "fallback": 16
+  },
+  "person07_jogging_d4": {
+    "total_frames": 260,
+    "detected": 260,
+    "fallback": 0
+  },
+  "person07_running_d1": {
+    "total_frames": 80,
+    "detected": 64,
+    "fallback": 16
+  },
+  "person07_running_d2": {
+    "total_frames": 160,
+    "detected": 142,
+    "fallback": 18
+  },
+  "person07_running_d3": {
+    "total_frames": 160,
+    "detected": 156,
+    "fallback": 4
+  },
+  "person07_running_d4": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person07_walking_d1": {
+    "total_frames": 240,
+    "detected": 222,
+    "fallback": 18
+  },
+  "person07_walking_d2": {
+    "total_frames": 360,
+    "detected": 344,
+    "fallback": 16
+  },
+  "person07_walking_d3": {
+    "total_frames": 320,
+    "detected": 311,
+    "fallback": 9
+  },
+  "person07_walking_d4": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person08_boxing_d1": {
+    "total_frames": 380,
+    "detected": 375,
+    "fallback": 5
+  },
+  "person08_boxing_d2": {
+    "total_frames": 420,
+    "detected": 312,
+    "fallback": 108
+  },
+  "person08_boxing_d3": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person08_boxing_d4": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person08_handclapping_d1": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person08_handclapping_d2": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person08_handclapping_d3": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person08_handclapping_d4": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person08_handwaving_d1": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person08_handwaving_d2": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person08_handwaving_d3": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person08_handwaving_d4": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person08_jogging_d1": {
+    "total_frames": 160,
+    "detected": 146,
+    "fallback": 14
+  },
+  "person08_jogging_d2": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person08_jogging_d3": {
+    "total_frames": 220,
+    "detected": 214,
+    "fallback": 6
+  },
+  "person08_jogging_d4": {
+    "total_frames": 240,
+    "detected": 235,
+    "fallback": 5
+  },
+  "person08_running_d1": {
+    "total_frames": 120,
+    "detected": 113,
+    "fallback": 7
+  },
+  "person08_running_d2": {
+    "total_frames": 180,
+    "detected": 180,
+    "fallback": 0
+  },
+  "person08_running_d3": {
+    "total_frames": 160,
+    "detected": 149,
+    "fallback": 11
+  },
+  "person08_running_d4": {
+    "total_frames": 160,
+    "detected": 155,
+    "fallback": 5
+  },
+  "person08_walking_d1": {
+    "total_frames": 240,
+    "detected": 220,
+    "fallback": 20
+  },
+  "person08_walking_d2": {
+    "total_frames": 480,
+    "detected": 456,
+    "fallback": 24
+  },
+  "person08_walking_d3": {
+    "total_frames": 300,
+    "detected": 273,
+    "fallback": 27
+  },
+  "person08_walking_d4": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person09_boxing_d1": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person09_boxing_d2": {
+    "total_frames": 400,
+    "detected": 395,
+    "fallback": 5
+  },
+  "person09_boxing_d3": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person09_boxing_d4": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person09_handclapping_d1": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person09_handclapping_d2": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person09_handclapping_d3": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person09_handclapping_d4": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person09_handwaving_d1": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person09_handwaving_d2": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person09_handwaving_d3": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person09_handwaving_d4": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person09_jogging_d1": {
+    "total_frames": 160,
+    "detected": 142,
+    "fallback": 18
+  },
+  "person09_jogging_d2": {
+    "total_frames": 300,
+    "detected": 292,
+    "fallback": 8
+  },
+  "person09_jogging_d3": {
+    "total_frames": 160,
+    "detected": 139,
+    "fallback": 21
+  },
+  "person09_jogging_d4": {
+    "total_frames": 260,
+    "detected": 260,
+    "fallback": 0
+  },
+  "person09_running_d1": {
+    "total_frames": 80,
+    "detected": 62,
+    "fallback": 18
+  },
+  "person09_running_d2": {
+    "total_frames": 160,
+    "detected": 139,
+    "fallback": 21
+  },
+  "person09_running_d3": {
+    "total_frames": 80,
+    "detected": 59,
+    "fallback": 21
+  },
+  "person09_running_d4": {
+    "total_frames": 160,
+    "detected": 153,
+    "fallback": 7
+  },
+  "person09_walking_d1": {
+    "total_frames": 240,
+    "detected": 222,
+    "fallback": 18
+  },
+  "person09_walking_d2": {
+    "total_frames": 440,
+    "detected": 413,
+    "fallback": 27
+  },
+  "person09_walking_d3": {
+    "total_frames": 240,
+    "detected": 214,
+    "fallback": 26
+  },
+  "person09_walking_d4": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person10_boxing_d1": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person10_boxing_d2": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person10_boxing_d3": {
+    "total_frames": 520,
+    "detected": 520,
+    "fallback": 0
+  },
+  "person10_boxing_d4": {
+    "total_frames": 440,
+    "detected": 439,
+    "fallback": 1
+  },
+  "person10_handclapping_d1": {
+    "total_frames": 260,
+    "detected": 260,
+    "fallback": 0
+  },
+  "person10_handclapping_d2": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person10_handclapping_d3": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person10_handclapping_d4": {
+    "total_frames": 280,
+    "detected": 280,
+    "fallback": 0
+  },
+  "person10_handwaving_d1": {
+    "total_frames": 520,
+    "detected": 520,
+    "fallback": 0
+  },
+  "person10_handwaving_d2": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person10_handwaving_d3": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person10_handwaving_d4": {
+    "total_frames": 500,
+    "detected": 500,
+    "fallback": 0
+  },
+  "person10_jogging_d1": {
+    "total_frames": 200,
+    "detected": 195,
+    "fallback": 5
+  },
+  "person10_jogging_d2": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person10_jogging_d3": {
+    "total_frames": 160,
+    "detected": 154,
+    "fallback": 6
+  },
+  "person10_jogging_d4": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person10_running_d1": {
+    "total_frames": 80,
+    "detected": 76,
+    "fallback": 4
+  },
+  "person10_running_d2": {
+    "total_frames": 240,
+    "detected": 226,
+    "fallback": 14
+  },
+  "person10_running_d3": {
+    "total_frames": 100,
+    "detected": 96,
+    "fallback": 4
+  },
+  "person10_running_d4": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person10_walking_d1": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person10_walking_d2": {
+    "total_frames": 700,
+    "detected": 693,
+    "fallback": 7
+  },
+  "person10_walking_d3": {
+    "total_frames": 300,
+    "detected": 292,
+    "fallback": 8
+  },
+  "person10_walking_d4": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person11_boxing_d1": {
+    "total_frames": 300,
+    "detected": 300,
+    "fallback": 0
+  },
+  "person11_boxing_d2": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person11_boxing_d3": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person11_boxing_d4": {
+    "total_frames": 220,
+    "detected": 220,
+    "fallback": 0
+  },
+  "person11_handclapping_d1": {
+    "total_frames": 280,
+    "detected": 280,
+    "fallback": 0
+  },
+  "person11_handclapping_d2": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person11_handclapping_d3": {
+    "total_frames": 340,
+    "detected": 314,
+    "fallback": 26
+  },
+  "person11_handclapping_d4": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person11_handwaving_d1": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person11_handwaving_d2": {
+    "total_frames": 280,
+    "detected": 280,
+    "fallback": 0
+  },
+  "person11_handwaving_d3": {
+    "total_frames": 460,
+    "detected": 454,
+    "fallback": 6
+  },
+  "person11_handwaving_d4": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person11_jogging_d1": {
+    "total_frames": 220,
+    "detected": 213,
+    "fallback": 7
+  },
+  "person11_jogging_d2": {
+    "total_frames": 240,
+    "detected": 228,
+    "fallback": 12
+  },
+  "person11_jogging_d3": {
+    "total_frames": 180,
+    "detected": 165,
+    "fallback": 15
+  },
+  "person11_jogging_d4": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person11_running_d1": {
+    "total_frames": 100,
+    "detected": 87,
+    "fallback": 13
+  },
+  "person11_running_d2": {
+    "total_frames": 160,
+    "detected": 155,
+    "fallback": 5
+  },
+  "person11_running_d3": {
+    "total_frames": 80,
+    "detected": 63,
+    "fallback": 17
+  },
+  "person11_running_d4": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person11_walking_d1": {
+    "total_frames": 360,
+    "detected": 336,
+    "fallback": 24
+  },
+  "person11_walking_d2": {
+    "total_frames": 620,
+    "detected": 614,
+    "fallback": 6
+  },
+  "person11_walking_d3": {
+    "total_frames": 360,
+    "detected": 335,
+    "fallback": 25
+  },
+  "person11_walking_d4": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person12_boxing_d1": {
+    "total_frames": 540,
+    "detected": 540,
+    "fallback": 0
+  },
+  "person12_boxing_d2": {
+    "total_frames": 640,
+    "detected": 640,
+    "fallback": 0
+  },
+  "person12_boxing_d3": {
+    "total_frames": 660,
+    "detected": 540,
+    "fallback": 120
+  },
+  "person12_boxing_d4": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person12_handclapping_d1": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person12_handclapping_d2": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person12_handclapping_d3": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person12_handclapping_d4": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person12_handwaving_d1": {
+    "total_frames": 620,
+    "detected": 620,
+    "fallback": 0
+  },
+  "person12_handwaving_d2": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person12_handwaving_d3": {
+    "total_frames": 640,
+    "detected": 640,
+    "fallback": 0
+  },
+  "person12_handwaving_d4": {
+    "total_frames": 540,
+    "detected": 540,
+    "fallback": 0
+  },
+  "person12_jogging_d1": {
+    "total_frames": 200,
+    "detected": 181,
+    "fallback": 19
+  },
+  "person12_jogging_d2": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person12_jogging_d3": {
+    "total_frames": 180,
+    "detected": 158,
+    "fallback": 22
+  },
+  "person12_jogging_d4": {
+    "total_frames": 280,
+    "detected": 280,
+    "fallback": 0
+  },
+  "person12_running_d1": {
+    "total_frames": 80,
+    "detected": 63,
+    "fallback": 17
+  },
+  "person12_running_d2": {
+    "total_frames": 180,
+    "detected": 162,
+    "fallback": 18
+  },
+  "person12_running_d3": {
+    "total_frames": 120,
+    "detected": 98,
+    "fallback": 22
+  },
+  "person12_running_d4": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person12_walking_d1": {
+    "total_frames": 340,
+    "detected": 333,
+    "fallback": 7
+  },
+  "person12_walking_d2": {
+    "total_frames": 620,
+    "detected": 620,
+    "fallback": 0
+  },
+  "person12_walking_d3": {
+    "total_frames": 300,
+    "detected": 267,
+    "fallback": 33
+  },
+  "person12_walking_d4": {
+    "total_frames": 500,
+    "detected": 500,
+    "fallback": 0
+  },
+  "person13_boxing_d1": {
+    "total_frames": 500,
+    "detected": 500,
+    "fallback": 0
+  },
+  "person13_boxing_d2": {
+    "total_frames": 580,
+    "detected": 580,
+    "fallback": 0
+  },
+  "person13_boxing_d3": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person13_boxing_d4": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person13_handclapping_d1": {
+    "total_frames": 340,
+    "detected": 334,
+    "fallback": 6
+  },
+  "person13_handclapping_d2": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person13_handclapping_d4": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person13_handwaving_d1": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person13_handwaving_d2": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person13_handwaving_d3": {
+    "total_frames": 300,
+    "detected": 300,
+    "fallback": 0
+  },
+  "person13_handwaving_d4": {
+    "total_frames": 520,
+    "detected": 520,
+    "fallback": 0
+  },
+  "person13_jogging_d1": {
+    "total_frames": 160,
+    "detected": 139,
+    "fallback": 21
+  },
+  "person13_jogging_d2": {
+    "total_frames": 260,
+    "detected": 238,
+    "fallback": 22
+  },
+  "person13_jogging_d3": {
+    "total_frames": 160,
+    "detected": 142,
+    "fallback": 18
+  },
+  "person13_jogging_d4": {
+    "total_frames": 260,
+    "detected": 260,
+    "fallback": 0
+  },
+  "person13_running_d1": {
+    "total_frames": 160,
+    "detected": 151,
+    "fallback": 9
+  },
+  "person13_running_d2": {
+    "total_frames": 220,
+    "detected": 211,
+    "fallback": 9
+  },
+  "person13_running_d3": {
+    "total_frames": 160,
+    "detected": 145,
+    "fallback": 15
+  },
+  "person13_running_d4": {
+    "total_frames": 220,
+    "detected": 220,
+    "fallback": 0
+  },
+  "person13_walking_d1": {
+    "total_frames": 360,
+    "detected": 349,
+    "fallback": 11
+  },
+  "person13_walking_d2": {
+    "total_frames": 540,
+    "detected": 530,
+    "fallback": 10
+  },
+  "person13_walking_d3": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person13_walking_d4": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person14_boxing_d1": {
+    "total_frames": 520,
+    "detected": 520,
+    "fallback": 0
+  },
+  "person14_boxing_d2": {
+    "total_frames": 520,
+    "detected": 520,
+    "fallback": 0
+  },
+  "person14_boxing_d3": {
+    "total_frames": 540,
+    "detected": 540,
+    "fallback": 0
+  },
+  "person14_boxing_d4": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person14_handclapping_d1": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person14_handclapping_d2": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person14_handclapping_d3": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person14_handclapping_d4": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person14_handwaving_d1": {
+    "total_frames": 540,
+    "detected": 540,
+    "fallback": 0
+  },
+  "person14_handwaving_d2": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person14_handwaving_d3": {
+    "total_frames": 300,
+    "detected": 300,
+    "fallback": 0
+  },
+  "person14_handwaving_d4": {
+    "total_frames": 600,
+    "detected": 600,
+    "fallback": 0
+  },
+  "person14_jogging_d1": {
+    "total_frames": 240,
+    "detected": 232,
+    "fallback": 8
+  },
+  "person14_jogging_d2": {
+    "total_frames": 300,
+    "detected": 291,
+    "fallback": 9
+  },
+  "person14_jogging_d3": {
+    "total_frames": 260,
+    "detected": 244,
+    "fallback": 16
+  },
+  "person14_jogging_d4": {
+    "total_frames": 280,
+    "detected": 280,
+    "fallback": 0
+  },
+  "person14_running_d1": {
+    "total_frames": 180,
+    "detected": 161,
+    "fallback": 19
+  },
+  "person14_running_d2": {
+    "total_frames": 180,
+    "detected": 174,
+    "fallback": 6
+  },
+  "person14_running_d3": {
+    "total_frames": 140,
+    "detected": 140,
+    "fallback": 0
+  },
+  "person14_running_d4": {
+    "total_frames": 200,
+    "detected": 189,
+    "fallback": 11
+  },
+  "person14_walking_d1": {
+    "total_frames": 460,
+    "detected": 448,
+    "fallback": 12
+  },
+  "person14_walking_d2": {
+    "total_frames": 560,
+    "detected": 560,
+    "fallback": 0
+  },
+  "person14_walking_d3": {
+    "total_frames": 360,
+    "detected": 351,
+    "fallback": 9
+  },
+  "person14_walking_d4": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person15_boxing_d1": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person15_boxing_d2": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person15_boxing_d3": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person15_boxing_d4": {
+    "total_frames": 260,
+    "detected": 260,
+    "fallback": 0
+  },
+  "person15_handclapping_d1": {
+    "total_frames": 280,
+    "detected": 280,
+    "fallback": 0
+  },
+  "person15_handclapping_d2": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person15_handclapping_d3": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person15_handclapping_d4": {
+    "total_frames": 300,
+    "detected": 300,
+    "fallback": 0
+  },
+  "person15_handwaving_d1": {
+    "total_frames": 560,
+    "detected": 560,
+    "fallback": 0
+  },
+  "person15_handwaving_d2": {
+    "total_frames": 660,
+    "detected": 660,
+    "fallback": 0
+  },
+  "person15_handwaving_d3": {
+    "total_frames": 560,
+    "detected": 560,
+    "fallback": 0
+  },
+  "person15_handwaving_d4": {
+    "total_frames": 640,
+    "detected": 640,
+    "fallback": 0
+  },
+  "person15_jogging_d1": {
+    "total_frames": 240,
+    "detected": 232,
+    "fallback": 8
+  },
+  "person15_jogging_d2": {
+    "total_frames": 260,
+    "detected": 242,
+    "fallback": 18
+  },
+  "person15_jogging_d3": {
+    "total_frames": 160,
+    "detected": 140,
+    "fallback": 20
+  },
+  "person15_jogging_d4": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person15_running_d1": {
+    "total_frames": 160,
+    "detected": 133,
+    "fallback": 27
+  },
+  "person15_running_d2": {
+    "total_frames": 160,
+    "detected": 137,
+    "fallback": 23
+  },
+  "person15_running_d3": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person15_running_d4": {
+    "total_frames": 160,
+    "detected": 141,
+    "fallback": 19
+  },
+  "person15_walking_d1": {
+    "total_frames": 420,
+    "detected": 390,
+    "fallback": 30
+  },
+  "person15_walking_d2": {
+    "total_frames": 580,
+    "detected": 572,
+    "fallback": 8
+  },
+  "person15_walking_d3": {
+    "total_frames": 320,
+    "detected": 298,
+    "fallback": 22
+  },
+  "person15_walking_d4": {
+    "total_frames": 540,
+    "detected": 540,
+    "fallback": 0
+  },
+  "person16_boxing_d1": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person16_boxing_d2": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person16_boxing_d3": {
+    "total_frames": 520,
+    "detected": 520,
+    "fallback": 0
+  },
+  "person16_boxing_d4": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person16_handclapping_d1": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person16_handclapping_d2": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person16_handclapping_d3": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person16_handclapping_d4": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person16_handwaving_d1": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person16_handwaving_d2": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person16_handwaving_d3": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person16_handwaving_d4": {
+    "total_frames": 540,
+    "detected": 540,
+    "fallback": 0
+  },
+  "person16_jogging_d1": {
+    "total_frames": 240,
+    "detected": 228,
+    "fallback": 12
+  },
+  "person16_jogging_d2": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person16_jogging_d3": {
+    "total_frames": 200,
+    "detected": 169,
+    "fallback": 31
+  },
+  "person16_jogging_d4": {
+    "total_frames": 300,
+    "detected": 300,
+    "fallback": 0
+  },
+  "person16_running_d1": {
+    "total_frames": 180,
+    "detected": 165,
+    "fallback": 15
+  },
+  "person16_running_d2": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person16_running_d3": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person16_running_d4": {
+    "total_frames": 160,
+    "detected": 151,
+    "fallback": 9
+  },
+  "person16_walking_d1": {
+    "total_frames": 360,
+    "detected": 327,
+    "fallback": 33
+  },
+  "person16_walking_d2": {
+    "total_frames": 560,
+    "detected": 538,
+    "fallback": 22
+  },
+  "person16_walking_d3": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person16_walking_d4": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person17_boxing_d1": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person17_boxing_d2": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person17_boxing_d3": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person17_boxing_d4": {
+    "total_frames": 300,
+    "detected": 300,
+    "fallback": 0
+  },
+  "person17_handclapping_d1": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person17_handclapping_d2": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person17_handclapping_d3": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person17_handclapping_d4": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person17_handwaving_d1": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person17_handwaving_d2": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person17_handwaving_d3": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person17_handwaving_d4": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person17_jogging_d1": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person17_jogging_d2": {
+    "total_frames": 380,
+    "detected": 367,
+    "fallback": 13
+  },
+  "person17_jogging_d3": {
+    "total_frames": 180,
+    "detected": 162,
+    "fallback": 18
+  },
+  "person17_jogging_d4": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person17_running_d1": {
+    "total_frames": 100,
+    "detected": 81,
+    "fallback": 19
+  },
+  "person17_running_d2": {
+    "total_frames": 200,
+    "detected": 182,
+    "fallback": 18
+  },
+  "person17_running_d3": {
+    "total_frames": 100,
+    "detected": 83,
+    "fallback": 17
+  },
+  "person17_running_d4": {
+    "total_frames": 180,
+    "detected": 180,
+    "fallback": 0
+  },
+  "person17_walking_d1": {
+    "total_frames": 380,
+    "detected": 368,
+    "fallback": 12
+  },
+  "person17_walking_d2": {
+    "total_frames": 620,
+    "detected": 611,
+    "fallback": 9
+  },
+  "person17_walking_d3": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person17_walking_d4": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person18_boxing_d1": {
+    "total_frames": 580,
+    "detected": 580,
+    "fallback": 0
+  },
+  "person18_boxing_d2": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person18_boxing_d3": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person18_boxing_d4": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person18_handclapping_d1": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person18_handclapping_d2": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person18_handclapping_d3": {
+    "total_frames": 520,
+    "detected": 520,
+    "fallback": 0
+  },
+  "person18_handclapping_d4": {
+    "total_frames": 500,
+    "detected": 500,
+    "fallback": 0
+  },
+  "person18_handwaving_d1": {
+    "total_frames": 540,
+    "detected": 540,
+    "fallback": 0
+  },
+  "person18_handwaving_d2": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person18_handwaving_d3": {
+    "total_frames": 520,
+    "detected": 520,
+    "fallback": 0
+  },
+  "person18_handwaving_d4": {
+    "total_frames": 560,
+    "detected": 560,
+    "fallback": 0
+  },
+  "person18_jogging_d1": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person18_jogging_d2": {
+    "total_frames": 300,
+    "detected": 300,
+    "fallback": 0
+  },
+  "person18_jogging_d3": {
+    "total_frames": 220,
+    "detected": 220,
+    "fallback": 0
+  },
+  "person18_jogging_d4": {
+    "total_frames": 260,
+    "detected": 260,
+    "fallback": 0
+  },
+  "person18_running_d1": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person18_running_d2": {
+    "total_frames": 200,
+    "detected": 200,
+    "fallback": 0
+  },
+  "person18_running_d3": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person18_running_d4": {
+    "total_frames": 200,
+    "detected": 193,
+    "fallback": 7
+  },
+  "person18_walking_d1": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person18_walking_d2": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person18_walking_d3": {
+    "total_frames": 320,
+    "detected": 308,
+    "fallback": 12
+  },
+  "person18_walking_d4": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person19_boxing_d1": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person19_boxing_d2": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person19_boxing_d3": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person19_boxing_d4": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person19_handclapping_d1": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person19_handclapping_d2": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person19_handclapping_d3": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person19_handclapping_d4": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person19_handwaving_d1": {
+    "total_frames": 620,
+    "detected": 620,
+    "fallback": 0
+  },
+  "person19_handwaving_d2": {
+    "total_frames": 540,
+    "detected": 540,
+    "fallback": 0
+  },
+  "person19_handwaving_d3": {
+    "total_frames": 600,
+    "detected": 600,
+    "fallback": 0
+  },
+  "person19_handwaving_d4": {
+    "total_frames": 540,
+    "detected": 540,
+    "fallback": 0
+  },
+  "person19_jogging_d1": {
+    "total_frames": 220,
+    "detected": 214,
+    "fallback": 6
+  },
+  "person19_jogging_d2": {
+    "total_frames": 360,
+    "detected": 356,
+    "fallback": 4
+  },
+  "person19_jogging_d3": {
+    "total_frames": 160,
+    "detected": 144,
+    "fallback": 16
+  },
+  "person19_jogging_d4": {
+    "total_frames": 260,
+    "detected": 260,
+    "fallback": 0
+  },
+  "person19_running_d1": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person19_running_d2": {
+    "total_frames": 260,
+    "detected": 251,
+    "fallback": 9
+  },
+  "person19_running_d3": {
+    "total_frames": 160,
+    "detected": 154,
+    "fallback": 6
+  },
+  "person19_running_d4": {
+    "total_frames": 160,
+    "detected": 151,
+    "fallback": 9
+  },
+  "person19_walking_d1": {
+    "total_frames": 320,
+    "detected": 311,
+    "fallback": 9
+  },
+  "person19_walking_d2": {
+    "total_frames": 540,
+    "detected": 517,
+    "fallback": 23
+  },
+  "person19_walking_d3": {
+    "total_frames": 320,
+    "detected": 301,
+    "fallback": 19
+  },
+  "person19_walking_d4": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person20_boxing_d1": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person20_boxing_d2": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person20_boxing_d3": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person20_boxing_d4": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person20_handclapping_d1": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person20_handclapping_d2": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person20_handclapping_d3": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person20_handclapping_d4": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person20_handwaving_d1": {
+    "total_frames": 500,
+    "detected": 500,
+    "fallback": 0
+  },
+  "person20_handwaving_d2": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person20_handwaving_d3": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person20_handwaving_d4": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person20_jogging_d1": {
+    "total_frames": 200,
+    "detected": 200,
+    "fallback": 0
+  },
+  "person20_jogging_d2": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person20_jogging_d3": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person20_jogging_d4": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person20_running_d1": {
+    "total_frames": 80,
+    "detected": 80,
+    "fallback": 0
+  },
+  "person20_running_d2": {
+    "total_frames": 200,
+    "detected": 200,
+    "fallback": 0
+  },
+  "person20_running_d3": {
+    "total_frames": 80,
+    "detected": 80,
+    "fallback": 0
+  },
+  "person20_running_d4": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person20_walking_d1": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person20_walking_d2": {
+    "total_frames": 600,
+    "detected": 600,
+    "fallback": 0
+  },
+  "person20_walking_d3": {
+    "total_frames": 260,
+    "detected": 260,
+    "fallback": 0
+  },
+  "person20_walking_d4": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person21_boxing_d1": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person21_boxing_d2": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person21_boxing_d3": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person21_boxing_d4": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person21_handclapping_d1": {
+    "total_frames": 560,
+    "detected": 560,
+    "fallback": 0
+  },
+  "person21_handclapping_d2": {
+    "total_frames": 520,
+    "detected": 520,
+    "fallback": 0
+  },
+  "person21_handclapping_d3": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person21_handclapping_d4": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person21_handwaving_d1": {
+    "total_frames": 560,
+    "detected": 560,
+    "fallback": 0
+  },
+  "person21_handwaving_d2": {
+    "total_frames": 620,
+    "detected": 620,
+    "fallback": 0
+  },
+  "person21_handwaving_d3": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person21_handwaving_d4": {
+    "total_frames": 500,
+    "detected": 500,
+    "fallback": 0
+  },
+  "person21_jogging_d1": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person21_jogging_d2": {
+    "total_frames": 360,
+    "detected": 350,
+    "fallback": 10
+  },
+  "person21_jogging_d3": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person21_jogging_d4": {
+    "total_frames": 260,
+    "detected": 260,
+    "fallback": 0
+  },
+  "person21_running_d1": {
+    "total_frames": 100,
+    "detected": 96,
+    "fallback": 4
+  },
+  "person21_running_d2": {
+    "total_frames": 240,
+    "detected": 235,
+    "fallback": 5
+  },
+  "person21_running_d3": {
+    "total_frames": 100,
+    "detected": 100,
+    "fallback": 0
+  },
+  "person21_running_d4": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person21_walking_d1": {
+    "total_frames": 300,
+    "detected": 300,
+    "fallback": 0
+  },
+  "person21_walking_d2": {
+    "total_frames": 580,
+    "detected": 580,
+    "fallback": 0
+  },
+  "person21_walking_d3": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person21_walking_d4": {
+    "total_frames": 440,
+    "detected": 431,
+    "fallback": 9
+  },
+  "person22_boxing_d1": {
+    "total_frames": 260,
+    "detected": 260,
+    "fallback": 0
+  },
+  "person22_boxing_d2": {
+    "total_frames": 280,
+    "detected": 280,
+    "fallback": 0
+  },
+  "person22_boxing_d3": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person22_boxing_d4": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person22_handclapping_d1": {
+    "total_frames": 300,
+    "detected": 300,
+    "fallback": 0
+  },
+  "person22_handclapping_d2": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person22_handclapping_d3": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person22_handclapping_d4": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person22_handwaving_d1": {
+    "total_frames": 500,
+    "detected": 500,
+    "fallback": 0
+  },
+  "person22_handwaving_d2": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person22_handwaving_d3": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person22_handwaving_d4": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person22_jogging_d1": {
+    "total_frames": 180,
+    "detected": 180,
+    "fallback": 0
+  },
+  "person22_jogging_d2": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person22_jogging_d3": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person22_jogging_d4": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person22_running_d1": {
+    "total_frames": 80,
+    "detected": 80,
+    "fallback": 0
+  },
+  "person22_running_d2": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person22_running_d3": {
+    "total_frames": 100,
+    "detected": 100,
+    "fallback": 0
+  },
+  "person22_running_d4": {
+    "total_frames": 160,
+    "detected": 156,
+    "fallback": 4
+  },
+  "person22_walking_d1": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person22_walking_d2": {
+    "total_frames": 580,
+    "detected": 580,
+    "fallback": 0
+  },
+  "person22_walking_d3": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person22_walking_d4": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person23_boxing_d1": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person23_boxing_d2": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person23_boxing_d3": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person23_boxing_d4": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person23_handclapping_d1": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person23_handclapping_d2": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person23_handclapping_d3": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person23_handclapping_d4": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person23_handwaving_d1": {
+    "total_frames": 540,
+    "detected": 540,
+    "fallback": 0
+  },
+  "person23_handwaving_d2": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person23_handwaving_d3": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person23_handwaving_d4": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person23_jogging_d1": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person23_jogging_d2": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person23_jogging_d3": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person23_jogging_d4": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person23_running_d1": {
+    "total_frames": 80,
+    "detected": 80,
+    "fallback": 0
+  },
+  "person23_running_d2": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person23_running_d3": {
+    "total_frames": 80,
+    "detected": 80,
+    "fallback": 0
+  },
+  "person23_running_d4": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person23_walking_d1": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person23_walking_d2": {
+    "total_frames": 680,
+    "detected": 680,
+    "fallback": 0
+  },
+  "person23_walking_d3": {
+    "total_frames": 300,
+    "detected": 300,
+    "fallback": 0
+  },
+  "person23_walking_d4": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person24_boxing_d1": {
+    "total_frames": 320,
+    "detected": 318,
+    "fallback": 2
+  },
+  "person24_boxing_d2": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person24_boxing_d3": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person24_boxing_d4": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person24_handclapping_d1": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person24_handclapping_d2": {
+    "total_frames": 340,
+    "detected": 340,
+    "fallback": 0
+  },
+  "person24_handclapping_d3": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person24_handclapping_d4": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person24_handwaving_d1": {
+    "total_frames": 540,
+    "detected": 540,
+    "fallback": 0
+  },
+  "person24_handwaving_d2": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person24_handwaving_d3": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person24_handwaving_d4": {
+    "total_frames": 480,
+    "detected": 480,
+    "fallback": 0
+  },
+  "person24_jogging_d1": {
+    "total_frames": 160,
+    "detected": 147,
+    "fallback": 13
+  },
+  "person24_jogging_d2": {
+    "total_frames": 400,
+    "detected": 390,
+    "fallback": 10
+  },
+  "person24_jogging_d3": {
+    "total_frames": 200,
+    "detected": 187,
+    "fallback": 13
+  },
+  "person24_jogging_d4": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person24_running_d1": {
+    "total_frames": 80,
+    "detected": 67,
+    "fallback": 13
+  },
+  "person24_running_d2": {
+    "total_frames": 300,
+    "detected": 296,
+    "fallback": 4
+  },
+  "person24_running_d3": {
+    "total_frames": 140,
+    "detected": 140,
+    "fallback": 0
+  },
+  "person24_running_d4": {
+    "total_frames": 160,
+    "detected": 158,
+    "fallback": 2
+  },
+  "person24_walking_d1": {
+    "total_frames": 280,
+    "detected": 275,
+    "fallback": 5
+  },
+  "person24_walking_d2": {
+    "total_frames": 660,
+    "detected": 637,
+    "fallback": 23
+  },
+  "person24_walking_d3": {
+    "total_frames": 300,
+    "detected": 293,
+    "fallback": 7
+  },
+  "person24_walking_d4": {
+    "total_frames": 320,
+    "detected": 320,
+    "fallback": 0
+  },
+  "person25_boxing_d1": {
+    "total_frames": 360,
+    "detected": 360,
+    "fallback": 0
+  },
+  "person25_boxing_d2": {
+    "total_frames": 420,
+    "detected": 420,
+    "fallback": 0
+  },
+  "person25_boxing_d3": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person25_boxing_d4": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person25_handclapping_d1": {
+    "total_frames": 380,
+    "detected": 380,
+    "fallback": 0
+  },
+  "person25_handclapping_d2": {
+    "total_frames": 460,
+    "detected": 452,
+    "fallback": 8
+  },
+  "person25_handclapping_d3": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  },
+  "person25_handclapping_d4": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person25_handwaving_d1": {
+    "total_frames": 460,
+    "detected": 460,
+    "fallback": 0
+  },
+  "person25_handwaving_d2": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person25_handwaving_d3": {
+    "total_frames": 480,
+    "detected": 475,
+    "fallback": 5
+  },
+  "person25_handwaving_d4": {
+    "total_frames": 440,
+    "detected": 440,
+    "fallback": 0
+  },
+  "person25_jogging_d1": {
+    "total_frames": 160,
+    "detected": 140,
+    "fallback": 20
+  },
+  "person25_jogging_d2": {
+    "total_frames": 320,
+    "detected": 301,
+    "fallback": 19
+  },
+  "person25_jogging_d3": {
+    "total_frames": 200,
+    "detected": 196,
+    "fallback": 4
+  },
+  "person25_jogging_d4": {
+    "total_frames": 240,
+    "detected": 240,
+    "fallback": 0
+  },
+  "person25_running_d1": {
+    "total_frames": 140,
+    "detected": 133,
+    "fallback": 7
+  },
+  "person25_running_d2": {
+    "total_frames": 240,
+    "detected": 225,
+    "fallback": 15
+  },
+  "person25_running_d3": {
+    "total_frames": 160,
+    "detected": 153,
+    "fallback": 7
+  },
+  "person25_running_d4": {
+    "total_frames": 160,
+    "detected": 160,
+    "fallback": 0
+  },
+  "person25_walking_d1": {
+    "total_frames": 360,
+    "detected": 351,
+    "fallback": 9
+  },
+  "person25_walking_d2": {
+    "total_frames": 620,
+    "detected": 602,
+    "fallback": 18
+  },
+  "person25_walking_d3": {
+    "total_frames": 400,
+    "detected": 392,
+    "fallback": 8
+  },
+  "person25_walking_d4": {
+    "total_frames": 400,
+    "detected": 400,
+    "fallback": 0
+  }
+}
