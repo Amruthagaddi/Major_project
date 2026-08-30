@@ -1,0 +1,386 @@
+[mpeg4 @ 0x95a9ca680] ac-tex damaged at 8 6
+[mpeg4 @ 0x95a9ca680] Error at MB: 74
+[mpeg4 @ 0x95a9ca680] ac-tex damaged at 8 6
+[mpeg4 @ 0x95a9ca680] Error at MB: 74
+[mpeg4 @ 0x95a9c9880] ac-tex damaged at 8 6
+[mpeg4 @ 0x95a9c9880] Error at MB: 74
+[mpeg4 @ 0x95a9c9880] ac-tex damaged at 8 6
+[mpeg4 @ 0x95a9c9880] Error at MB: 74
+============================================================
+Using detector: hog
+Reading KTH annotations...
+Annotation entries found: 599
+============================================================
+[1/599] person01 boxing d1 validation
+[2/599] person01 boxing d2 validation
+[3/599] person01 boxing d3 validation
+[4/599] person01 boxing d4 validation
+Could not read frame: 306 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 307 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 308 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 309 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 310 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 311 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 312 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 313 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 314 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 315 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 316 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 317 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 318 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 319 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 320 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 321 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 322 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 323 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 324 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 325 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 326 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 327 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 328 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 329 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 330 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 331 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 332 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 333 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 334 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 335 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 336 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 337 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 338 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 339 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 340 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 341 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 342 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 343 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 344 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 345 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 346 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 347 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 348 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 349 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 350 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 351 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 352 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 353 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 354 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 355 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 356 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 357 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 358 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 359 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 360 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 361 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 362 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 363 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 364 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 365 from datasets/boxing/person01_boxing_d4_uncomp.avi
+[5/599] person01 handclapping d1 validation
+[6/599] person01 handclapping d2 validation
+[7/599] person01 handclapping d3 validation
+[8/599] person01 handclapping d4 validation
+[9/599] person01 handwaving d1 validation
+[10/599] person01 handwaving d2 validation
+[11/599] person01 handwaving d3 validation
+[12/599] person01 handwaving d4 validation
+[13/599] person01 jogging d1 validation
+[14/599] person01 jogging d2 validation
+[15/599] person01 jogging d3 validation
+[16/599] person01 jogging d4 validation
+[17/599] person01 running d1 validation
+[18/599] person01 running d2 validation
+[19/599] person01 running d3 validation
+[20/599] person01 running d4 validation
+[21/599] person01 walking d1 validation
+[22/599] person01 walking d2 validation
+[23/599] person01 walking d3 validation
+[24/599] person01 walking d4 validation
+[25/599] person02 boxing d1 test
+[26/599] person02 boxing d2 test
+[27/599] person02 boxing d3 test
+[28/599] person02 boxing d4 test
+[29/599] person02 handclapping d1 test
+[30/599] person02 handclapping d2 test
+[31/599] person02 handclapping d3 test
+[32/599] person02 handclapping d4 test
+[33/599] person02 handwaving d1 test
+[34/599] person02 handwaving d2 test
+[35/599] person02 handwaving d3 test
+[36/599] person02 handwaving d4 test
+[37/599] person02 jogging d1 test
+[38/599] person02 jogging d2 test
+[39/599] person02 jogging d3 test
+[40/599] person02 jogging d4 test
+[41/599] person02 running d1 test
+[42/599] person02 running d2 test
+[43/599] person02 running d3 test
+[44/599] person02 running d4 test
+[45/599] person02 walking d1 test
+[46/599] person02 walking d2 test
+[47/599] person02 walking d3 test
+[48/599] person02 walking d4 test
+[49/599] person03 boxing d1 test
+[50/599] person03 boxing d2 test
+[51/599] person03 boxing d3 test
+[52/599] person03 boxing d4 test
+[53/599] person03 handclapping d1 test
+[54/599] person03 handclapping d2 test
+[55/599] person03 handclapping d3 test
+[56/599] person03 handclapping d4 test
+[57/599] person03 handwaving d1 test
+[58/599] person03 handwaving d2 test
+[59/599] person03 handwaving d3 test
+[60/599] person03 handwaving d4 test
+[61/599] person03 jogging d1 test
+[62/599] person03 jogging d2 test
+[63/599] person03 jogging d3 test
+[64/599] person03 jogging d4 test
+[65/599] person03 running d1 test
+[66/599] person03 running d2 test
+[67/599] person03 running d3 test
+[68/599] person03 running d4 test
+[69/599] person03 walking d1 test
+[70/599] person03 walking d2 test
+[71/599] person03 walking d3 test
+[72/599] person03 walking d4 test
+[73/599] person04 boxing d1 validation
+[74/599] person04 boxing d2 validation
+[75/599] person04 boxing d3 validation
+[76/599] person04 boxing d4 validation
+[77/599] person04 handclapping d1 validation
+[78/599] person04 handclapping d2 validation
+[79/599] person04 handclapping d3 validation
+[80/599] person04 handclapping d4 validation
+[81/599] person04 handwaving d1 validation
+[82/599] person04 handwaving d2 validation
+[83/599] person04 handwaving d3 validation
+[84/599] person04 handwaving d4 validation
+[85/599] person04 jogging d1 validation
+[86/599] person04 jogging d2 validation
+[87/599] person04 jogging d3 validation
+[88/599] person04 jogging d4 validation
+[89/599] person04 running d1 validation
+[90/599] person04 running d2 validation
+[91/599] person04 running d3 validation
+[92/599] person04 running d4 validation
+[93/599] person04 walking d1 validation
+[94/599] person04 walking d2 validation
+[95/599] person04 walking d3 validation
+[96/599] person04 walking d4 validation
+[97/599] person05 boxing d1 test
+[98/599] person05 boxing d2 test
+[99/599] person05 boxing d3 test
+[100/599] person05 boxing d4 test
+[101/599] person05 handclapping d1 test
+[102/599] person05 handclapping d2 test
+[103/599] person05 handclapping d3 test
+[104/599] person05 handclapping d4 test
+[105/599] person05 handwaving d1 test
+[106/599] person05 handwaving d2 test
+[107/599] person05 handwaving d3 test
+[108/599] person05 handwaving d4 test
+[109/599] person05 jogging d1 test
+[110/599] person05 jogging d2 test
+[111/599] person05 jogging d3 test
+[112/599] person05 jogging d4 test
+[113/599] person05 running d1 test
+[114/599] person05 running d2 test
+[115/599] person05 running d3 test
+[116/599] person05 running d4 test
+[117/599] person05 walking d1 test
+[118/599] person05 walking d2 test
+[119/599] person05 walking d3 test
+[120/599] person05 walking d4 test
+[121/599] person06 boxing d1 test
+[122/599] person06 boxing d2 test
+[123/599] person06 boxing d3 test
+[124/599] person06 boxing d4 test
+[125/599] person06 handclapping d1 test
+[126/599] person06 handclapping d2 test
+[127/599] person06 handclapping d3 test
+[128/599] person06 handclapping d4 test
+[129/599] person06 handwaving d1 test
+[130/599] person06 handwaving d2 test
+[131/599] person06 handwaving d3 test
+[132/599] person06 handwaving d4 test
+[133/599] person06 jogging d1 test
+[134/599] person06 jogging d2 test
+[135/599] person06 jogging d3 test
+[136/599] person06 jogging d4 test
+[137/599] person06 running d1 test
+[138/599] person06 running d2 test
+[139/599] person06 running d3 test
+[140/599] person06 running d4 test
+[141/599] person06 walking d1 test
+[142/599] person06 walking d2 test
+[143/599] person06 walking d3 test
+[144/599] person06 walking d4 test
+[145/599] person07 boxing d1 test
+[146/599] person07 boxing d2 test
+[147/599] person07 boxing d3 test
+[148/599] person07 boxing d4 test
+[149/599] person07 handclapping d1 test
+[150/599] person07 handclapping d2 test
+[151/599] person07 handclapping d3 test
+[152/599] person07 handclapping d4 test
+[153/599] person07 handwaving d1 test
+[154/599] person07 handwaving d2 test
+[155/599] person07 handwaving d3 test
+[156/599] person07 handwaving d4 test
+[157/599] person07 jogging d1 test
+[158/599] person07 jogging d2 test
+[159/599] person07 jogging d3 test
+[160/599] person07 jogging d4 test
+[161/599] person07 running d1 test
+[162/599] person07 running d2 test
+[163/599] person07 running d3 test
+[164/599] person07 running d4 test
+[165/599] person07 walking d1 test
+[166/599] person07 walking d2 test
+[167/599] person07 walking d3 test
+[168/599] person07 walking d4 test
+[169/599] person08 boxing d1 test
+[170/599] person08 boxing d2 test
+[171/599] person08 boxing d3 test
+[172/599] person08 boxing d4 test
+[173/599] person08 handclapping d1 test
+[174/599] person08 handclapping d2 test
+[175/599] person08 handclapping d3 test
+[176/599] person08 handclapping d4 test
+[177/599] person08 handwaving d1 test
+[178/599] person08 handwaving d2 test
+[179/599] person08 handwaving d3 test
+[180/599] person08 handwaving d4 test
+[181/599] person08 jogging d1 test
+[182/599] person08 jogging d2 test
+[183/599] person08 jogging d3 test
+[184/599] person08 jogging d4 test
+[185/599] person08 running d1 test
+[186/599] person08 running d2 test
+[187/599] person08 running d3 test
+[188/599] person08 running d4 test
+[189/599] person08 walking d1 test
+[190/599] person08 walking d2 test
+[191/599] person08 walking d3 test
+[192/599] person08 walking d4 test
+[193/599] person09 boxing d1 test
+[194/599] person09 boxing d2 test
+[195/599] person09 boxing d3 test
+[196/599] person09 boxing d4 test
+[197/599] person09 handclapping d1 test
+[198/599] person09 handclapping d2 test
+[199/599] person09 handclapping d3 test
+[200/599] person09 handclapping d4 test
+[201/599] person09 handwaving d1 test
+[202/599] person09 handwaving d2 test
+[203/599] person09 handwaving d3 test
+[204/599] person09 handwaving d4 test
+[205/599] person09 jogging d1 test
+[206/599] person09 jogging d2 test
+[207/599] person09 jogging d3 test
+[208/599] person09 jogging d4 test
+[209/599] person09 running d1 test
+[210/599] person09 running d2 test
+[211/599] person09 running d3 test
+[212/599] person09 running d4 test
+[213/599] person09 walking d1 test
+[214/599] person09 walking d2 test
+[215/599] person09 walking d3 test
+[216/599] person09 walking d4 test
+[217/599] person10 boxing d1 test
+[218/599] person10 boxing d2 test
+[219/599] person10 boxing d3 test
+[220/599] person10 boxing d4 test
+[221/599] person10 handclapping d1 test
+[222/599] person10 handclapping d2 test
+[223/599] person10 handclapping d3 test
+[224/599] person10 handclapping d4 test
+[225/599] person10 handwaving d1 test
+[226/599] person10 handwaving d2 test
+[227/599] person10 handwaving d3 test
+[228/599] person10 handwaving d4 test
+[229/599] person10 jogging d1 test
+[230/599] person10 jogging d2 test
+[231/599] person10 jogging d3 test
+[232/599] person10 jogging d4 test
+[233/599] person10 running d1 test
+[234/599] person10 running d2 test
+[235/599] person10 running d3 test
+[236/599] person10 running d4 test
+[237/599] person10 walking d1 test
+[238/599] person10 walking d2 test
+[239/599] person10 walking d3 test
+[240/599] person10 walking d4 test
+[241/599] person11 boxing d1 train
+[242/599] person11 boxing d2 train
+[243/599] person11 boxing d3 train
+[244/599] person11 boxing d4 train
+[245/599] person11 handclapping d1 train
+[246/599] person11 handclapping d2 train
+[247/599] person11 handclapping d3 train
+[248/599] person11 handclapping d4 train
+[249/599] person11 handwaving d1 train
+[250/599] person11 handwaving d2 train
+[251/599] person11 handwaving d3 train
+[252/599] person11 handwaving d4 train
+[253/599] person11 jogging d1 train
+[254/599] person11 jogging d2 train
+[255/599] person11 jogging d3 train
+[256/599] person11 jogging d4 train
+[257/599] person11 running d1 train
+[258/599] person11 running d2 train
+[259/599] person11 running d3 train
+[260/599] person11 running d4 train
+[261/599] person11 walking d1 train
+[262/599] person11 walking d2 train
+[263/599] person11 walking d3 train
+[264/599] person11 walking d4 train
+[265/599] person12 boxing d1 train
+[266/599] person12 boxing d2 train
+[267/599] person12 boxing d3 train
+[268/599] person12 boxing d4 train
+[269/599] person12 handclapping d1 train
+[270/599] person12 handclapping d2 train
+[271/599] person12 handclapping d3 train
+[272/599] person12 handclapping d4 train
+[273/599] person12 handwaving d1 train
+[274/599] person12 handwaving d2 train
+[275/599] person12 handwaving d3 train
+[276/599] person12 handwaving d4 train
+[277/599] person12 jogging d1 train
+[278/599] person12 jogging d2 train
+[279/599] person12 jogging d3 train
+[280/599] person12 jogging d4 train
+[281/599] person12 running d1 train
+[282/599] person12 running d2 train
+[283/599] person12 running d3 train
+[284/599] person12 running d4 train
+[285/599] person12 walking d1 train
+[286/599] person12 walking d2 train
+[287/599] person12 walking d3 train
+[288/599] person12 walking d4 train
+[289/599] person13 boxing d1 train
+[290/599] person13 boxing d2 train
+[291/599] person13 boxing d3 train
+[292/599] person13 boxing d4 train
+[293/599] person13 handclapping d1 train
+[294/599] person13 handclapping d2 train
+[295/599] person13 handclapping d4 train
+[296/599] person13 handwaving d1 train
+[297/599] person13 handwaving d2 train
+[298/599] person13 handwaving d3 train
+[299/599] person13 handwaving d4 train
+[300/599] person13 jogging d1 train
+[301/599] person13 jogging d2 train
+[302/599] person13 jogging d3 train
+[303/599] person13 jogging d4 train
+[304/599] person13 running d1 train
+[305/599] person13 running d2 train
+[306/599] person13 running d3 train
+[307/599] person13 running d4 train
+[308/599] person13 walking d1 train
+[309/599] person13 walking d2 train
+[310/599] person13 walking d3 train
+[311/599] person13 walking d4 train
+[312/599] person14 boxing d1 train
+[313/599] person14 boxing 

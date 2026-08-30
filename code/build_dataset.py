@@ -389,6 +389,10 @@ def extract_sequences(
                     continue
 
                 stats["total_frames"] += 1
+                per_video = globals().setdefault("__per_video_stats", {})
+                key = f"{person}_{activity}_{condition}"
+                per_video.setdefault(key, {"total_frames": 0, "detected": 0, "fallback": 0})
+                per_video[key]["total_frames"] += 1
 
                 # Choose detector per invocation (hog or bg)
                 detector = globals().get("__detector_choice", "hog")
@@ -477,6 +481,11 @@ def extract_sequences(
                 if detected is not None:
 
                     stats["detected"] += 1
+                    # record per-video stat
+                    per_video = globals().setdefault("__per_video_stats", {})
+                    key = f"{person}_{activity}_{condition}"
+                    per_video.setdefault(key, {"total_frames": 0, "detected": 0, "fallback": 0})
+                    per_video[key]["detected"] += 1
 
                     x, y, w, h = detected
 
@@ -517,6 +526,10 @@ def extract_sequences(
                 else:
 
                     stats["fallback"] += 1
+                    per_video = globals().setdefault("__per_video_stats", {})
+                    key = f"{person}_{activity}_{condition}"
+                    per_video.setdefault(key, {"total_frames": 0, "detected": 0, "fallback": 0})
+                    per_video[key]["fallback"] += 1
 
                     # Fallback: center square crop
                     fh, fw = frame.shape[:2]
@@ -688,6 +701,19 @@ def main():
         globals().pop("__bg_subtractor", None)
 
         total_sequences += saved
+
+    # After processing all videos, if detection stats exist, write per-video breakdown
+    stats = globals().get("__detection_stats", None)
+    if stats is not None:
+        # also try to write per-video breakdown if available
+        per_video = globals().get("__per_video_stats", None)
+        if per_video is not None:
+            try:
+                with open("output/detection_stats_per_video.json", "w") as pvf:
+                    json.dump(per_video, pvf, indent=2)
+                print("Wrote per-video detection stats to: output/detection_stats_per_video.json")
+            except Exception:
+                pass
 
     print()
     print("=" * 60)
