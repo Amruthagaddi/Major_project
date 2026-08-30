@@ -19,6 +19,10 @@ os.makedirs(
     OUTPUT_DIR, 
     exist_ok=True
 )
+os.makedirs(
+    os.path.join(OUTPUT_DIR, "crops"),
+    exist_ok=True
+)
 
 
 # ============================================================
@@ -277,50 +281,22 @@ while frame_number < END_FRAME:
                 fixed_height
             )
 
-            tracker = create_tracker()
-            if tracker is not None:
-                try:
-                    tracker.init(frame, bbox)
-                    tracking = True
-                except Exception:
-                    tracking = True
-            else:
-                tracking = True
+            # Use detection-only workflow to avoid OpenCV tracker native crashes.
+            tracking = True
 
         else:
 
-            # Smoothly follow person across frames
+            # Smoothly follow person across frames using detections
             sx = int(0.6 * bbox[0] + 0.4 * detected_bbox[0])
             sy = int(0.6 * bbox[1] + 0.4 * detected_bbox[1])
             bbox = (sx, sy, detected_bbox[2], detected_bbox[3])
 
-            if tracker is not None:
-                try:
-                    tracker.init(frame, bbox)
-                except Exception:
-                    pass
+    elif tracking:
 
-    elif tracking and tracker is not None:
-
-        success, tracked_bbox = tracker.update(frame)
-
-        if success:
-
-            tracked_x = int(tracked_bbox[0])
-            tracked_y = int(tracked_bbox[1])
-
-            frame_height, frame_width = frame.shape[:2]
-
-            new_x = max(0, min(tracked_x, frame_width - (fixed_width or 40)))
-            new_y = max(0, min(tracked_y, frame_height - (fixed_height or 85)))
-
-            bbox = (new_x, new_y, fixed_width or 40, fixed_height or 85)
-
-        else:
-
-            tracking = False
-            tracker = None
-            bbox = None
+        # No detection this frame; keep previous bbox for visualization
+        # Optionally we could implement temporal smoothing or a simple search,
+        # but avoid OpenCV tracker APIs that may crash in some builds.
+        pass
 
     # ========================================================
     # DRAW BOUNDING BOX
@@ -396,6 +372,31 @@ while frame_number < END_FRAME:
         display
     )
     out_writer.write(display)
+
+    # Also save a cropped 224x224 image of the detected person when available
+    if bbox is not None:
+
+        x, y, w, h = bbox
+
+        # safe crop
+        x = int(max(0, x))
+        y = int(max(0, y))
+        w = int(max(1, w))
+        h = int(max(1, h))
+
+        crop = frame[y:y + h, x:x + w]
+
+        try:
+            crop_resized = cv2.resize(crop, (224, 224))
+            crop_path = os.path.join(
+                OUTPUT_DIR,
+                "crops",
+                f"frame_{frame_number:02d}.jpg"
+            )
+            cv2.imwrite(crop_path, crop_resized)
+        except Exception:
+            # ignore resize/write errors for test script
+            pass
 
     # ========================================================
     # SHOW

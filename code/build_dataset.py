@@ -1,6 +1,8 @@
 import cv2
 import os
 import re
+import numpy as np
+import argparse
 
 
 # ============================================================
@@ -30,6 +32,111 @@ ACTIVITIES = {
     "handwaving",
     "handclapping"
 }
+
+
+# ------------------------------------------------------------
+# HOG person detector (single-frame detector used for cropping)
+# ------------------------------------------------------------
+hog = cv2.HOGDescriptor()
+hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
+
+
+def detect_person_hog(frame):
+    """Detect a single person in a frame using HOG + SVM.
+
+    Returns bbox (x, y, w, h) for the largest detected person, or None.
+    """
+    if frame is None:
+        return None
+
+    rects, weights = hog.detectMultiScale(
+        frame,
+        winStride=(8, 8),
+        padding=(8, 8),
+        scale=1.05
+    )
+
+    if len(rects) == 0:
+        return None
+
+    # pick largest detection
+    areas = [w * h for (x, y, w, h) in rects]
+    idx = int(np.argmax(areas))
+    x, y, w, h = rects[idx]
+
+    # expand a little to better include full body
+    pad_h = int(0.25 * h)
+    pad_w = int(0.15 * w)
+
+    frame_h, frame_w = frame.shape[:2]
+
+    x1 = max(0, x - pad_w)
+    y1 = max(0, y - pad_h)
+    x2 = min(frame_w, x + w + pad_w)
+    y2 = min(frame_h, y + h + pad_h)
+
+    return (x1, y1, x2 - x1, y2 - y1)
+
+
+def detect_person_bg(frame, background_subtractor):
+    """Detect person using background subtraction + morphology + contours.
+
+    Returns bbox (x, y, w, h) or None.
+    """
+    if frame is None:
+        return None
+
+    mask = background_subtractor.apply(frame, learningRate=0.01)
+
+    kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5, 5))
+
+    mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel)
+    mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel, iterations=2)
+
+    kernel_large = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (15, 15))
+    mask = cv2.dilate(mask, kernel_large, iterations=2)
+
+    contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+
+    if not contours:
+        return None
+
+    boxes = []
+    for contour in contours:
+        area = cv2.contourArea(contour)
+        if area < 30:
+            continue
+        x, y, w, h = cv2.boundingRect(contour)
+        boxes.append((x, y, w, h, area))
+
+    if not boxes:
+        return None
+
+    min_x = min(box[0] for box in boxes)
+    min_y = min(box[1] for box in boxes)
+    max_x = max(box[0] + box[2] for box in boxes)
+    max_y = max(box[1] + box[3] for box in boxes)
+
+    detected_height = max_y - min_y
+
+    target_height = max(int(detected_height * 1.35), 85)
+    target_width = int(target_height * 0.45)
+
+    center_x = (min_x + max_x) // 2
+    center_y = (min_y + max_y) // 2
+
+    frame_height, frame_width = frame.shape[:2]
+
+    x1 = max(0, min(center_x - target_width // 2, frame_width - target_width))
+    y1 = max(0, min(center_y - target_height // 2, frame_height - target_height))
+
+    w1 = min(target_width, frame_width - x1)
+    h1 = min(target_height, frame_height - y1)
+
+    if w1 <= 0 or h1 <= 0:
+        return None
+
+    return (x1, y1, w1, h1)
 
 
 # ============================================================
@@ -228,19 +335,10 @@ def extract_sequences(
 
             frame_number = 1
 
-            for frame_index in range(
-                current_start,
-                current_end + 1
-            ):
+            # Position video at sequence start and read sequentially
+            cap.set(cv2.CAP_PROP_POS_FRAMES, current_start - 1)
 
-                # KTH annotation uses frame numbers
-                # starting at 1.
-                # OpenCV uses frame index starting at 0.
-
-                cap.set(
-                    cv2.CAP_PROP_POS_FRAMES,
-                    frame_index - 1
-                )
+            for frame_index in range(current_start, current_end + 1):
 
                 ret, frame = cap.read()
 
@@ -255,10 +353,49 @@ def extract_sequences(
 
                     continue
 
-                frame = cv2.resize(
-                    frame,
-                    IMAGE_SIZE
-                )
+                # Choose detector per invocation (hog or bg)
+                detector = globals().get("__detector_choice", "hog")
+
+                if detector == "bg":
+
+                    # background subtractor must be created per-video
+                    bg = globals().get("__bg_subtractor", None)
+
+                    if bg is None:
+                        # fallback to hog
+                        detected = detect_person_hog(frame)
+                    else:
+                        detected = detect_person_bg(frame, bg)
+
+                else:
+
+                    # default: hog
+                    detected = detect_person_hog(frame)
+
+                if detected is not None:
+
+                    x, y, w, h = detected
+
+                    # safe crop
+                    x = int(max(0, x))
+                    y = int(max(0, y))
+                    w = int(max(1, w))
+                    h = int(max(1, h))
+
+                    crop = frame[y:y + h, x:x + w]
+
+                else:
+
+                    # Fallback: center square crop
+                    fh, fw = frame.shape[:2]
+                    side = min(fh, fw)
+                    cx = fw // 2
+                    cy = fh // 2
+                    x1 = max(0, cx - side // 2)
+                    y1 = max(0, cy - side // 2)
+                    crop = frame[y1:y1 + side, x1:x1 + side]
+
+                frame = cv2.resize(crop, IMAGE_SIZE)
 
                 frame_path = os.path.join(
                     sequence_dir,
@@ -308,17 +445,25 @@ def extract_sequences(
 
 def main():
 
-    print("=" * 60)
+    parser = argparse.ArgumentParser(description="Build processed KTH dataset with person crops")
+    parser.add_argument(
+        "--detector",
+        choices=("hog", "bg", "auto"),
+        default="hog",
+        help="Detection method: hog (HOG+SVM), bg (background subtractor), auto (hog)"
+    )
 
+    args = parser.parse_args()
+
+    detector_choice = args.detector
+
+    print("=" * 60)
+    print(f"Using detector: {detector_choice}")
     print("Reading KTH annotations...")
 
     annotations = read_annotations()
 
-    print(
-        "Annotation entries found:",
-        len(annotations)
-    )
-
+    print("Annotation entries found:", len(annotations))
     print("=" * 60)
 
     total_sequences = 0
@@ -327,6 +472,9 @@ def main():
         annotations,
         start=1
     ):
+
+        # make detector choice available to extract_sequences via globals
+        globals()["__detector_choice"] = detector_choice
 
         person = item["person"]
 
@@ -366,6 +514,13 @@ def main():
             split
         )
 
+        # If using background-subtractor, create one per-video and expose it
+        if detector_choice == "bg":
+            bg = cv2.createBackgroundSubtractorMOG2(history=100, varThreshold=40, detectShadows=False)
+            globals()["__bg_subtractor"] = bg
+        else:
+            globals().pop("__bg_subtractor", None)
+
         saved = extract_sequences(
             video_path,
             person,
@@ -374,6 +529,9 @@ def main():
             ranges,
             split
         )
+
+        # Clear per-video bg subtractor
+        globals().pop("__bg_subtractor", None)
 
         total_sequences += saved
 
