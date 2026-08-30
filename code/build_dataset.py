@@ -600,8 +600,8 @@ def main():
     parser.add_argument(
         "--detector",
         choices=("hog", "bg", "auto"),
-        default="hog",
-        help="Detection method: hog (HOG+SVM), bg (background subtractor), auto (hog)"
+        default="bg",
+        help="Detection method: bg (background subtractor, recommended for KTH), hog (HOG+SVM, upscale fallback), auto (hog)"
     )
 
     args = parser.parse_args()
