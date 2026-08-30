@@ -1,0 +1,1295 @@
+[mpeg4 @ 0x9ef9a9500] ac-tex damaged at 8 6
+[mpeg4 @ 0x9ef9a9500] Error at MB: 74
+[mpeg4 @ 0x9ef9a9500] ac-tex damaged at 8 6
+[mpeg4 @ 0x9ef9a9500] Error at MB: 74
+[mpeg4 @ 0x9ef9aa300] ac-tex damaged at 8 6
+[mpeg4 @ 0x9ef9aa300] Error at MB: 74
+[mpeg4 @ 0x9ef9aa300] ac-tex damaged at 8 6
+[mpeg4 @ 0x9ef9aa300] Error at MB: 74
+============================================================
+Using detector: hog
+Reading KTH annotations...
+Annotation entries found: 599
+============================================================
+[1/599] person01 boxing d1 validation
+  Per-video detection: 320/320 frames detected (100.0%), fallback 0 (0.0%)
+[2/599] person01 boxing d2 validation
+  Per-video detection: 320/320 frames detected (100.0%), fallback 0 (0.0%)
+[3/599] person01 boxing d3 validation
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[4/599] person01 boxing d4 validation
+Could not read frame: 306 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 307 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 308 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 309 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 310 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 311 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 312 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 313 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 314 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 315 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 316 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 317 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 318 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 319 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 320 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 321 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 322 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 323 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 324 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 325 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 326 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 327 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 328 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 329 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 330 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 331 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 332 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 333 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 334 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 335 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 336 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 337 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 338 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 339 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 340 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 341 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 342 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 343 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 344 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 345 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 346 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 347 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 348 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 349 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 350 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 351 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 352 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 353 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 354 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 355 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 356 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 357 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 358 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 359 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 360 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 361 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 362 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 363 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 364 from datasets/boxing/person01_boxing_d4_uncomp.avi
+Could not read frame: 365 from datasets/boxing/person01_boxing_d4_uncomp.avi
+  Per-video detection: 280/280 frames detected (100.0%), fallback 0 (0.0%)
+[5/599] person01 handclapping d1 validation
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[6/599] person01 handclapping d2 validation
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[7/599] person01 handclapping d3 validation
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[8/599] person01 handclapping d4 validation
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[9/599] person01 handwaving d1 validation
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[10/599] person01 handwaving d2 validation
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[11/599] person01 handwaving d3 validation
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[12/599] person01 handwaving d4 validation
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[13/599] person01 jogging d1 validation
+  Per-video detection: 115/160 frames detected (71.9%), fallback 45 (28.1%)
+[14/599] person01 jogging d2 validation
+  Per-video detection: 199/240 frames detected (82.9%), fallback 41 (17.1%)
+[15/599] person01 jogging d3 validation
+  Per-video detection: 141/160 frames detected (88.1%), fallback 19 (11.9%)
+[16/599] person01 jogging d4 validation
+  Per-video detection: 230/240 frames detected (95.8%), fallback 10 (4.2%)
+[17/599] person01 running d1 validation
+  Per-video detection: 52/100 frames detected (52.0%), fallback 48 (48.0%)
+[18/599] person01 running d2 validation
+  Per-video detection: 126/160 frames detected (78.8%), fallback 34 (21.2%)
+[19/599] person01 running d3 validation
+  Per-video detection: 56/100 frames detected (56.0%), fallback 44 (44.0%)
+[20/599] person01 running d4 validation
+  Per-video detection: 144/160 frames detected (90.0%), fallback 16 (10.0%)
+[21/599] person01 walking d1 validation
+  Per-video detection: 180/240 frames detected (75.0%), fallback 60 (25.0%)
+[22/599] person01 walking d2 validation
+  Per-video detection: 422/460 frames detected (91.7%), fallback 38 (8.3%)
+[23/599] person01 walking d3 validation
+  Per-video detection: 197/260 frames detected (75.8%), fallback 63 (24.2%)
+[24/599] person01 walking d4 validation
+  Per-video detection: 393/420 frames detected (93.6%), fallback 27 (6.4%)
+[25/599] person02 boxing d1 test
+  Per-video detection: 398/400 frames detected (99.5%), fallback 2 (0.5%)
+[26/599] person02 boxing d2 test
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[27/599] person02 boxing d3 test
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[28/599] person02 boxing d4 test
+  Per-video detection: 500/500 frames detected (100.0%), fallback 0 (0.0%)
+[29/599] person02 handclapping d1 test
+  Per-video detection: 360/360 frames detected (100.0%), fallback 0 (0.0%)
+[30/599] person02 handclapping d2 test
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[31/599] person02 handclapping d3 test
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[32/599] person02 handclapping d4 test
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[33/599] person02 handwaving d1 test
+  Per-video detection: 360/360 frames detected (100.0%), fallback 0 (0.0%)
+[34/599] person02 handwaving d2 test
+  Per-video detection: 320/320 frames detected (100.0%), fallback 0 (0.0%)
+[35/599] person02 handwaving d3 test
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[36/599] person02 handwaving d4 test
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[37/599] person02 jogging d1 test
+  Per-video detection: 109/160 frames detected (68.1%), fallback 51 (31.9%)
+[38/599] person02 jogging d2 test
+  Per-video detection: 344/460 frames detected (74.8%), fallback 116 (25.2%)
+[39/599] person02 jogging d3 test
+  Per-video detection: 223/240 frames detected (92.9%), fallback 17 (7.1%)
+[40/599] person02 jogging d4 test
+  Per-video detection: 217/240 frames detected (90.4%), fallback 23 (9.6%)
+[41/599] person02 running d1 test
+  Per-video detection: 125/160 frames detected (78.1%), fallback 35 (21.9%)
+[42/599] person02 running d2 test
+  Per-video detection: 261/340 frames detected (76.8%), fallback 79 (23.2%)
+[43/599] person02 running d3 test
+  Per-video detection: 219/240 frames detected (91.2%), fallback 21 (8.8%)
+[44/599] person02 running d4 test
+  Per-video detection: 206/220 frames detected (93.6%), fallback 14 (6.4%)
+[45/599] person02 walking d1 test
+  Per-video detection: 172/240 frames detected (71.7%), fallback 68 (28.3%)
+[46/599] person02 walking d2 test
+  Per-video detection: 637/760 frames detected (83.8%), fallback 123 (16.2%)
+[47/599] person02 walking d3 test
+  Per-video detection: 280/320 frames detected (87.5%), fallback 40 (12.5%)
+[48/599] person02 walking d4 test
+  Per-video detection: 333/360 frames detected (92.5%), fallback 27 (7.5%)
+[49/599] person03 boxing d1 test
+  Per-video detection: 418/420 frames detected (99.5%), fallback 2 (0.5%)
+[50/599] person03 boxing d2 test
+  Per-video detection: 459/460 frames detected (99.8%), fallback 1 (0.2%)
+[51/599] person03 boxing d3 test
+  Per-video detection: 360/360 frames detected (100.0%), fallback 0 (0.0%)
+[52/599] person03 boxing d4 test
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[53/599] person03 handclapping d1 test
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[54/599] person03 handclapping d2 test
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[55/599] person03 handclapping d3 test
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[56/599] person03 handclapping d4 test
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[57/599] person03 handwaving d1 test
+  Per-video detection: 520/520 frames detected (100.0%), fallback 0 (0.0%)
+[58/599] person03 handwaving d2 test
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[59/599] person03 handwaving d3 test
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[60/599] person03 handwaving d4 test
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[61/599] person03 jogging d1 test
+  Per-video detection: 120/160 frames detected (75.0%), fallback 40 (25.0%)
+[62/599] person03 jogging d2 test
+  Per-video detection: 387/460 frames detected (84.1%), fallback 73 (15.9%)
+[63/599] person03 jogging d3 test
+  Per-video detection: 137/160 frames detected (85.6%), fallback 23 (14.4%)
+[64/599] person03 jogging d4 test
+  Per-video detection: 229/240 frames detected (95.4%), fallback 11 (4.6%)
+[65/599] person03 running d1 test
+  Per-video detection: 87/120 frames detected (72.5%), fallback 33 (27.5%)
+[66/599] person03 running d2 test
+  Per-video detection: 207/280 frames detected (73.9%), fallback 73 (26.1%)
+[67/599] person03 running d3 test
+  Per-video detection: 36/80 frames detected (45.0%), fallback 44 (55.0%)
+  WARNING: HOG missed majority of frames for this video — consider re-running with --detector bg
+[68/599] person03 running d4 test
+  Per-video detection: 127/140 frames detected (90.7%), fallback 13 (9.3%)
+[69/599] person03 walking d1 test
+  Per-video detection: 357/380 frames detected (93.9%), fallback 23 (6.1%)
+[70/599] person03 walking d2 test
+  Per-video detection: 740/820 frames detected (90.2%), fallback 80 (9.8%)
+[71/599] person03 walking d3 test
+  Per-video detection: 332/360 frames detected (92.2%), fallback 28 (7.8%)
+[72/599] person03 walking d4 test
+  Per-video detection: 317/340 frames detected (93.2%), fallback 23 (6.8%)
+[73/599] person04 boxing d1 validation
+  Per-video detection: 280/280 frames detected (100.0%), fallback 0 (0.0%)
+[74/599] person04 boxing d2 validation
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[75/599] person04 boxing d3 validation
+  Per-video detection: 360/360 frames detected (100.0%), fallback 0 (0.0%)
+[76/599] person04 boxing d4 validation
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[77/599] person04 handclapping d1 validation
+  Per-video detection: 360/360 frames detected (100.0%), fallback 0 (0.0%)
+[78/599] person04 handclapping d2 validation
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[79/599] person04 handclapping d3 validation
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[80/599] person04 handclapping d4 validation
+  Per-video detection: 360/360 frames detected (100.0%), fallback 0 (0.0%)
+[81/599] person04 handwaving d1 validation
+  Per-video detection: 560/560 frames detected (100.0%), fallback 0 (0.0%)
+[82/599] person04 handwaving d2 validation
+  Per-video detection: 540/540 frames detected (100.0%), fallback 0 (0.0%)
+[83/599] person04 handwaving d3 validation
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[84/599] person04 handwaving d4 validation
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[85/599] person04 jogging d1 validation
+  Per-video detection: 118/160 frames detected (73.8%), fallback 42 (26.2%)
+[86/599] person04 jogging d2 validation
+  Per-video detection: 276/360 frames detected (76.7%), fallback 84 (23.3%)
+[87/599] person04 jogging d3 validation
+  Per-video detection: 93/160 frames detected (58.1%), fallback 67 (41.9%)
+[88/599] person04 jogging d4 validation
+  Per-video detection: 222/240 frames detected (92.5%), fallback 18 (7.5%)
+[89/599] person04 running d1 validation
+  Per-video detection: 53/120 frames detected (44.2%), fallback 67 (55.8%)
+  WARNING: HOG missed majority of frames for this video — consider re-running with --detector bg
+[90/599] person04 running d2 validation
+  Per-video detection: 142/220 frames detected (64.5%), fallback 78 (35.5%)
+[91/599] person04 running d3 validation
+  Per-video detection: 32/80 frames detected (40.0%), fallback 48 (60.0%)
+  WARNING: HOG missed majority of frames for this video — consider re-running with --detector bg
+[92/599] person04 running d4 validation
+  Per-video detection: 142/160 frames detected (88.8%), fallback 18 (11.2%)
+[93/599] person04 walking d1 validation
+  Per-video detection: 275/320 frames detected (85.9%), fallback 45 (14.1%)
+[94/599] person04 walking d2 validation
+  Per-video detection: 489/600 frames detected (81.5%), fallback 111 (18.5%)
+[95/599] person04 walking d3 validation
+  Per-video detection: 181/280 frames detected (64.6%), fallback 99 (35.4%)
+[96/599] person04 walking d4 validation
+  Per-video detection: 318/340 frames detected (93.5%), fallback 22 (6.5%)
+[97/599] person05 boxing d1 test
+  Per-video detection: 397/400 frames detected (99.2%), fallback 3 (0.8%)
+[98/599] person05 boxing d2 test
+  Per-video detection: 379/380 frames detected (99.7%), fallback 1 (0.3%)
+[99/599] person05 boxing d3 test
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[100/599] person05 boxing d4 test
+  Per-video detection: 416/420 frames detected (99.0%), fallback 4 (1.0%)
+[101/599] person05 handclapping d1 test
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[102/599] person05 handclapping d2 test
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[103/599] person05 handclapping d3 test
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[104/599] person05 handclapping d4 test
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[105/599] person05 handwaving d1 test
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[106/599] person05 handwaving d2 test
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[107/599] person05 handwaving d3 test
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[108/599] person05 handwaving d4 test
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[109/599] person05 jogging d1 test
+  Per-video detection: 120/160 frames detected (75.0%), fallback 40 (25.0%)
+[110/599] person05 jogging d2 test
+  Per-video detection: 178/220 frames detected (80.9%), fallback 42 (19.1%)
+[111/599] person05 jogging d3 test
+  Per-video detection: 120/160 frames detected (75.0%), fallback 40 (25.0%)
+[112/599] person05 jogging d4 test
+  Per-video detection: 218/240 frames detected (90.8%), fallback 22 (9.2%)
+[113/599] person05 running d1 test
+  Per-video detection: 37/80 frames detected (46.2%), fallback 43 (53.8%)
+  WARNING: HOG missed majority of frames for this video — consider re-running with --detector bg
+[114/599] person05 running d2 test
+  Per-video detection: 118/160 frames detected (73.8%), fallback 42 (26.2%)
+[115/599] person05 running d3 test
+  Per-video detection: 87/140 frames detected (62.1%), fallback 53 (37.9%)
+[116/599] person05 running d4 test
+  Per-video detection: 137/160 frames detected (85.6%), fallback 23 (14.4%)
+[117/599] person05 walking d1 test
+  Per-video detection: 186/260 frames detected (71.5%), fallback 74 (28.5%)
+[118/599] person05 walking d2 test
+  Per-video detection: 336/400 frames detected (84.0%), fallback 64 (16.0%)
+[119/599] person05 walking d3 test
+  Per-video detection: 225/280 frames detected (80.4%), fallback 55 (19.6%)
+[120/599] person05 walking d4 test
+  Per-video detection: 316/360 frames detected (87.8%), fallback 44 (12.2%)
+[121/599] person06 boxing d1 test
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[122/599] person06 boxing d2 test
+  Per-video detection: 360/360 frames detected (100.0%), fallback 0 (0.0%)
+[123/599] person06 boxing d3 test
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[124/599] person06 boxing d4 test
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[125/599] person06 handclapping d1 test
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[126/599] person06 handclapping d2 test
+  Per-video detection: 338/340 frames detected (99.4%), fallback 2 (0.6%)
+[127/599] person06 handclapping d3 test
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[128/599] person06 handclapping d4 test
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[129/599] person06 handwaving d1 test
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[130/599] person06 handwaving d2 test
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[131/599] person06 handwaving d3 test
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[132/599] person06 handwaving d4 test
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[133/599] person06 jogging d1 test
+  Per-video detection: 138/180 frames detected (76.7%), fallback 42 (23.3%)
+[134/599] person06 jogging d2 test
+  Per-video detection: 292/320 frames detected (91.2%), fallback 28 (8.8%)
+[135/599] person06 jogging d3 test
+  Per-video detection: 116/160 frames detected (72.5%), fallback 44 (27.5%)
+[136/599] person06 jogging d4 test
+  Per-video detection: 225/240 frames detected (93.8%), fallback 15 (6.2%)
+[137/599] person06 running d1 test
+  Per-video detection: 69/140 frames detected (49.3%), fallback 71 (50.7%)
+  WARNING: HOG missed majority of frames for this video — consider re-running with --detector bg
+[138/599] person06 running d2 test
+  Per-video detection: 183/220 frames detected (83.2%), fallback 37 (16.8%)
+[139/599] person06 running d3 test
+  Per-video detection: 58/100 frames detected (58.0%), fallback 42 (42.0%)
+[140/599] person06 running d4 test
+  Per-video detection: 128/160 frames detected (80.0%), fallback 32 (20.0%)
+[141/599] person06 walking d1 test
+  Per-video detection: 203/240 frames detected (84.6%), fallback 37 (15.4%)
+[142/599] person06 walking d2 test
+  Per-video detection: 490/580 frames detected (84.5%), fallback 90 (15.5%)
+[143/599] person06 walking d3 test
+  Per-video detection: 198/240 frames detected (82.5%), fallback 42 (17.5%)
+[144/599] person06 walking d4 test
+  Per-video detection: 310/340 frames detected (91.2%), fallback 30 (8.8%)
+[145/599] person07 boxing d1 test
+  Per-video detection: 359/360 frames detected (99.7%), fallback 1 (0.3%)
+[146/599] person07 boxing d2 test
+  Per-video detection: 280/280 frames detected (100.0%), fallback 0 (0.0%)
+[147/599] person07 boxing d3 test
+  Per-video detection: 360/360 frames detected (100.0%), fallback 0 (0.0%)
+[148/599] person07 boxing d4 test
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[149/599] person07 handclapping d1 test
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[150/599] person07 handclapping d2 test
+  Per-video detection: 500/500 frames detected (100.0%), fallback 0 (0.0%)
+[151/599] person07 handclapping d3 test
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[152/599] person07 handclapping d4 test
+  Per-video detection: 500/500 frames detected (100.0%), fallback 0 (0.0%)
+[153/599] person07 handwaving d1 test
+  Per-video detection: 740/740 frames detected (100.0%), fallback 0 (0.0%)
+[154/599] person07 handwaving d2 test
+  Per-video detection: 720/720 frames detected (100.0%), fallback 0 (0.0%)
+[155/599] person07 handwaving d3 test
+  Per-video detection: 560/560 frames detected (100.0%), fallback 0 (0.0%)
+[156/599] person07 handwaving d4 test
+  Per-video detection: 740/740 frames detected (100.0%), fallback 0 (0.0%)
+[157/599] person07 jogging d1 test
+  Per-video detection: 116/160 frames detected (72.5%), fallback 44 (27.5%)
+[158/599] person07 jogging d2 test
+  Per-video detection: 192/240 frames detected (80.0%), fallback 48 (20.0%)
+[159/599] person07 jogging d3 test
+  Per-video detection: 117/160 frames detected (73.1%), fallback 43 (26.9%)
+[160/599] person07 jogging d4 test
+  Per-video detection: 246/260 frames detected (94.6%), fallback 14 (5.4%)
+[161/599] person07 running d1 test
+  Per-video detection: 45/80 frames detected (56.2%), fallback 35 (43.8%)
+[162/599] person07 running d2 test
+  Per-video detection: 127/160 frames detected (79.4%), fallback 33 (20.6%)
+[163/599] person07 running d3 test
+  Per-video detection: 153/160 frames detected (95.6%), fallback 7 (4.4%)
+[164/599] person07 running d4 test
+  Per-video detection: 143/160 frames detected (89.4%), fallback 17 (10.6%)
+[165/599] person07 walking d1 test
+  Per-video detection: 207/240 frames detected (86.2%), fallback 33 (13.8%)
+[166/599] person07 walking d2 test
+  Per-video detection: 302/360 frames detected (83.9%), fallback 58 (16.1%)
+[167/599] person07 walking d3 test
+  Per-video detection: 292/320 frames detected (91.2%), fallback 28 (8.8%)
+[168/599] person07 walking d4 test
+  Per-video detection: 342/360 frames detected (95.0%), fallback 18 (5.0%)
+[169/599] person08 boxing d1 test
+  Per-video detection: 377/380 frames detected (99.2%), fallback 3 (0.8%)
+[170/599] person08 boxing d2 test
+  Per-video detection: 399/420 frames detected (95.0%), fallback 21 (5.0%)
+[171/599] person08 boxing d3 test
+  Per-video detection: 359/360 frames detected (99.7%), fallback 1 (0.3%)
+[172/599] person08 boxing d4 test
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[173/599] person08 handclapping d1 test
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[174/599] person08 handclapping d2 test
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[175/599] person08 handclapping d3 test
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[176/599] person08 handclapping d4 test
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[177/599] person08 handwaving d1 test
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[178/599] person08 handwaving d2 test
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[179/599] person08 handwaving d3 test
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[180/599] person08 handwaving d4 test
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[181/599] person08 jogging d1 test
+  Per-video detection: 109/160 frames detected (68.1%), fallback 51 (31.9%)
+[182/599] person08 jogging d2 test
+  Per-video detection: 312/320 frames detected (97.5%), fallback 8 (2.5%)
+[183/599] person08 jogging d3 test
+  Per-video detection: 196/220 frames detected (89.1%), fallback 24 (10.9%)
+[184/599] person08 jogging d4 test
+  Per-video detection: 208/240 frames detected (86.7%), fallback 32 (13.3%)
+[185/599] person08 running d1 test
+  Per-video detection: 53/120 frames detected (44.2%), fallback 67 (55.8%)
+  WARNING: HOG missed majority of frames for this video — consider re-running with --detector bg
+[186/599] person08 running d2 test
+  Per-video detection: 167/180 frames detected (92.8%), fallback 13 (7.2%)
+[187/599] person08 running d3 test
+  Per-video detection: 135/160 frames detected (84.4%), fallback 25 (15.6%)
+[188/599] person08 running d4 test
+  Per-video detection: 132/160 frames detected (82.5%), fallback 28 (17.5%)
+[189/599] person08 walking d1 test
+  Per-video detection: 166/240 frames detected (69.2%), fallback 74 (30.8%)
+[190/599] person08 walking d2 test
+  Per-video detection: 434/480 frames detected (90.4%), fallback 46 (9.6%)
+[191/599] person08 walking d3 test
+  Per-video detection: 231/300 frames detected (77.0%), fallback 69 (23.0%)
+[192/599] person08 walking d4 test
+  Per-video detection: 395/440 frames detected (89.8%), fallback 45 (10.2%)
+[193/599] person09 boxing d1 test
+  Per-video detection: 399/400 frames detected (99.8%), fallback 1 (0.2%)
+[194/599] person09 boxing d2 test
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[195/599] person09 boxing d3 test
+  Per-video detection: 359/360 frames detected (99.7%), fallback 1 (0.3%)
+[196/599] person09 boxing d4 test
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[197/599] person09 handclapping d1 test
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[198/599] person09 handclapping d2 test
+  Per-video detection: 320/320 frames detected (100.0%), fallback 0 (0.0%)
+[199/599] person09 handclapping d3 test
+  Per-video detection: 320/320 frames detected (100.0%), fallback 0 (0.0%)
+[200/599] person09 handclapping d4 test
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[201/599] person09 handwaving d1 test
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[202/599] person09 handwaving d2 test
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[203/599] person09 handwaving d3 test
+  Per-video detection: 360/360 frames detected (100.0%), fallback 0 (0.0%)
+[204/599] person09 handwaving d4 test
+  Per-video detection: 360/360 frames detected (100.0%), fallback 0 (0.0%)
+[205/599] person09 jogging d1 test
+  Per-video detection: 113/160 frames detected (70.6%), fallback 47 (29.4%)
+[206/599] person09 jogging d2 test
+  Per-video detection: 269/300 frames detected (89.7%), fallback 31 (10.3%)
+[207/599] person09 jogging d3 test
+  Per-video detection: 113/160 frames detected (70.6%), fallback 47 (29.4%)
+[208/599] person09 jogging d4 test
+  Per-video detection: 243/260 frames detected (93.5%), fallback 17 (6.5%)
+[209/599] person09 running d1 test
+  Per-video detection: 32/80 frames detected (40.0%), fallback 48 (60.0%)
+  WARNING: HOG missed majority of frames for this video — consider re-running with --detector bg
+[210/599] person09 running d2 test
+  Per-video detection: 109/160 frames detected (68.1%), fallback 51 (31.9%)
+[211/599] person09 running d3 test
+  Per-video detection: 27/80 frames detected (33.8%), fallback 53 (66.2%)
+  WARNING: HOG missed majority of frames for this video — consider re-running with --detector bg
+[212/599] person09 running d4 test
+  Per-video detection: 109/160 frames detected (68.1%), fallback 51 (31.9%)
+[213/599] person09 walking d1 test
+  Per-video detection: 200/240 frames detected (83.3%), fallback 40 (16.7%)
+[214/599] person09 walking d2 test
+  Per-video detection: 385/440 frames detected (87.5%), fallback 55 (12.5%)
+[215/599] person09 walking d3 test
+  Per-video detection: 178/240 frames detected (74.2%), fallback 62 (25.8%)
+[216/599] person09 walking d4 test
+  Per-video detection: 311/320 frames detected (97.2%), fallback 9 (2.8%)
+[217/599] person10 boxing d1 test
+  Per-video detection: 360/360 frames detected (100.0%), fallback 0 (0.0%)
+[218/599] person10 boxing d2 test
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[219/599] person10 boxing d3 test
+  Per-video detection: 518/520 frames detected (99.6%), fallback 2 (0.4%)
+[220/599] person10 boxing d4 test
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[221/599] person10 handclapping d1 test
+  Per-video detection: 260/260 frames detected (100.0%), fallback 0 (0.0%)
+[222/599] person10 handclapping d2 test
+  Per-video detection: 320/320 frames detected (100.0%), fallback 0 (0.0%)
+[223/599] person10 handclapping d3 test
+  Per-video detection: 360/360 frames detected (100.0%), fallback 0 (0.0%)
+[224/599] person10 handclapping d4 test
+  Per-video detection: 280/280 frames detected (100.0%), fallback 0 (0.0%)
+[225/599] person10 handwaving d1 test
+  Per-video detection: 520/520 frames detected (100.0%), fallback 0 (0.0%)
+[226/599] person10 handwaving d2 test
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[227/599] person10 handwaving d3 test
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[228/599] person10 handwaving d4 test
+  Per-video detection: 500/500 frames detected (100.0%), fallback 0 (0.0%)
+[229/599] person10 jogging d1 test
+  Per-video detection: 181/200 frames detected (90.5%), fallback 19 (9.5%)
+[230/599] person10 jogging d2 test
+  Per-video detection: 371/440 frames detected (84.3%), fallback 69 (15.7%)
+[231/599] person10 jogging d3 test
+  Per-video detection: 132/160 frames detected (82.5%), fallback 28 (17.5%)
+[232/599] person10 jogging d4 test
+  Per-video detection: 226/240 frames detected (94.2%), fallback 14 (5.8%)
+[233/599] person10 running d1 test
+  Per-video detection: 65/80 frames detected (81.2%), fallback 15 (18.8%)
+[234/599] person10 running d2 test
+  Per-video detection: 184/240 frames detected (76.7%), fallback 56 (23.3%)
+[235/599] person10 running d3 test
+  Per-video detection: 66/100 frames detected (66.0%), fallback 34 (34.0%)
+[236/599] person10 running d4 test
+  Per-video detection: 139/160 frames detected (86.9%), fallback 21 (13.1%)
+[237/599] person10 walking d1 test
+  Per-video detection: 292/320 frames detected (91.2%), fallback 28 (8.8%)
+[238/599] person10 walking d2 test
+  Per-video detection: 545/700 frames detected (77.9%), fallback 155 (22.1%)
+[239/599] person10 walking d3 test
+  Per-video detection: 264/300 frames detected (88.0%), fallback 36 (12.0%)
+[240/599] person10 walking d4 test
+  Per-video detection: 356/380 frames detected (93.7%), fallback 24 (6.3%)
+[241/599] person11 boxing d1 train
+  Per-video detection: 300/300 frames detected (100.0%), fallback 0 (0.0%)
+[242/599] person11 boxing d2 train
+  Per-video detection: 320/320 frames detected (100.0%), fallback 0 (0.0%)
+[243/599] person11 boxing d3 train
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[244/599] person11 boxing d4 train
+  Per-video detection: 220/220 frames detected (100.0%), fallback 0 (0.0%)
+[245/599] person11 handclapping d1 train
+  Per-video detection: 280/280 frames detected (100.0%), fallback 0 (0.0%)
+[246/599] person11 handclapping d2 train
+  Per-video detection: 240/240 frames detected (100.0%), fallback 0 (0.0%)
+[247/599] person11 handclapping d3 train
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[248/599] person11 handclapping d4 train
+  Per-video detection: 240/240 frames detected (100.0%), fallback 0 (0.0%)
+[249/599] person11 handwaving d1 train
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[250/599] person11 handwaving d2 train
+  Per-video detection: 280/280 frames detected (100.0%), fallback 0 (0.0%)
+[251/599] person11 handwaving d3 train
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[252/599] person11 handwaving d4 train
+  Per-video detection: 417/420 frames detected (99.3%), fallback 3 (0.7%)
+[253/599] person11 jogging d1 train
+  Per-video detection: 199/220 frames detected (90.5%), fallback 21 (9.5%)
+[254/599] person11 jogging d2 train
+  Per-video detection: 205/240 frames detected (85.4%), fallback 35 (14.6%)
+[255/599] person11 jogging d3 train
+  Per-video detection: 55/180 frames detected (30.6%), fallback 125 (69.4%)
+  WARNING: HOG missed majority of frames for this video — consider re-running with --detector bg
+[256/599] person11 jogging d4 train
+  Per-video detection: 228/240 frames detected (95.0%), fallback 12 (5.0%)
+[257/599] person11 running d1 train
+  Per-video detection: 70/100 frames detected (70.0%), fallback 30 (30.0%)
+[258/599] person11 running d2 train
+  Per-video detection: 105/160 frames detected (65.6%), fallback 55 (34.4%)
+[259/599] person11 running d3 train
+  Per-video detection: 0/80 frames detected (0.0%), fallback 80 (100.0%)
+  WARNING: HOG missed majority of frames for this video — consider re-running with --detector bg
+[260/599] person11 running d4 train
+  Per-video detection: 95/160 frames detected (59.4%), fallback 65 (40.6%)
+[261/599] person11 walking d1 train
+  Per-video detection: 310/360 frames detected (86.1%), fallback 50 (13.9%)
+[262/599] person11 walking d2 train
+  Per-video detection: 563/620 frames detected (90.8%), fallback 57 (9.2%)
+[263/599] person11 walking d3 train
+  Per-video detection: 275/360 frames detected (76.4%), fallback 85 (23.6%)
+[264/599] person11 walking d4 train
+  Per-video detection: 324/340 frames detected (95.3%), fallback 16 (4.7%)
+[265/599] person12 boxing d1 train
+  Per-video detection: 540/540 frames detected (100.0%), fallback 0 (0.0%)
+[266/599] person12 boxing d2 train
+  Per-video detection: 640/640 frames detected (100.0%), fallback 0 (0.0%)
+[267/599] person12 boxing d3 train
+  Per-video detection: 660/660 frames detected (100.0%), fallback 0 (0.0%)
+[268/599] person12 boxing d4 train
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[269/599] person12 handclapping d1 train
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[270/599] person12 handclapping d2 train
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[271/599] person12 handclapping d3 train
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[272/599] person12 handclapping d4 train
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[273/599] person12 handwaving d1 train
+  Per-video detection: 620/620 frames detected (100.0%), fallback 0 (0.0%)
+[274/599] person12 handwaving d2 train
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[275/599] person12 handwaving d3 train
+  Per-video detection: 640/640 frames detected (100.0%), fallback 0 (0.0%)
+[276/599] person12 handwaving d4 train
+  Per-video detection: 540/540 frames detected (100.0%), fallback 0 (0.0%)
+[277/599] person12 jogging d1 train
+  Per-video detection: 120/200 frames detected (60.0%), fallback 80 (40.0%)
+[278/599] person12 jogging d2 train
+  Per-video detection: 298/320 frames detected (93.1%), fallback 22 (6.9%)
+[279/599] person12 jogging d3 train
+  Per-video detection: 94/180 frames detected (52.2%), fallback 86 (47.8%)
+[280/599] person12 jogging d4 train
+  Per-video detection: 258/280 frames detected (92.1%), fallback 22 (7.9%)
+[281/599] person12 running d1 train
+  Per-video detection: 9/80 frames detected (11.2%), fallback 71 (88.8%)
+  WARNING: HOG missed majority of frames for this video — consider re-running with --detector bg
+[282/599] person12 running d2 train
+  Per-video detection: 132/180 frames detected (73.3%), fallback 48 (26.7%)
+[283/599] person12 running d3 train
+  Per-video detection: 33/120 frames detected (27.5%), fallback 87 (72.5%)
+  WARNING: HOG missed majority of frames for this video — consider re-running with --detector bg
+[284/599] person12 running d4 train
+  Per-video detection: 112/160 frames detected (70.0%), fallback 48 (30.0%)
+[285/599] person12 walking d1 train
+  Per-video detection: 291/340 frames detected (85.6%), fallback 49 (14.4%)
+[286/599] person12 walking d2 train
+  Per-video detection: 583/620 frames detected (94.0%), fallback 37 (6.0%)
+[287/599] person12 walking d3 train
+  Per-video detection: 230/300 frames detected (76.7%), fallback 70 (23.3%)
+[288/599] person12 walking d4 train
+  Per-video detection: 470/500 frames detected (94.0%), fallback 30 (6.0%)
+[289/599] person13 boxing d1 train
+  Per-video detection: 500/500 frames detected (100.0%), fallback 0 (0.0%)
+[290/599] person13 boxing d2 train
+  Per-video detection: 557/580 frames detected (96.0%), fallback 23 (4.0%)
+[291/599] person13 boxing d3 train
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[292/599] person13 boxing d4 train
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[293/599] person13 handclapping d1 train
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[294/599] person13 handclapping d2 train
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[295/599] person13 handclapping d4 train
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[296/599] person13 handwaving d1 train
+  Per-video detection: 457/460 frames detected (99.3%), fallback 3 (0.7%)
+[297/599] person13 handwaving d2 train
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[298/599] person13 handwaving d3 train
+  Per-video detection: 300/300 frames detected (100.0%), fallback 0 (0.0%)
+[299/599] person13 handwaving d4 train
+  Per-video detection: 520/520 frames detected (100.0%), fallback 0 (0.0%)
+[300/599] person13 jogging d1 train
+  Per-video detection: 109/160 frames detected (68.1%), fallback 51 (31.9%)
+[301/599] person13 jogging d2 train
+  Per-video detection: 217/260 frames detected (83.5%), fallback 43 (16.5%)
+[302/599] person13 jogging d3 train
+  Per-video detection: 112/160 frames detected (70.0%), fallback 48 (30.0%)
+[303/599] person13 jogging d4 train
+  Per-video detection: 239/260 frames detected (91.9%), fallback 21 (8.1%)
+[304/599] person13 running d1 train
+  Per-video detection: 127/160 frames detected (79.4%), fallback 33 (20.6%)
+[305/599] person13 running d2 train
+  Per-video detection: 190/220 frames detected (86.4%), fallback 30 (13.6%)
+[306/599] person13 running d3 train
+  Per-video detection: 89/160 frames detected (55.6%), fallback 71 (44.4%)
+[307/599] person13 running d4 train
+  Per-video detection: 196/220 frames detected (89.1%), fallback 24 (10.9%)
+[308/599] person13 walking d1 train
+  Per-video detection: 321/360 frames detected (89.2%), fallback 39 (10.8%)
+[309/599] person13 walking d2 train
+  Per-video detection: 479/540 frames detected (88.7%), fallback 61 (11.3%)
+[310/599] person13 walking d3 train
+  Per-video detection: 358/380 frames detected (94.2%), fallback 22 (5.8%)
+[311/599] person13 walking d4 train
+  Per-video detection: 398/420 frames detected (94.8%), fallback 22 (5.2%)
+[312/599] person14 boxing d1 train
+  Per-video detection: 520/520 frames detected (100.0%), fallback 0 (0.0%)
+[313/599] person14 boxing d2 train
+  Per-video detection: 520/520 frames detected (100.0%), fallback 0 (0.0%)
+[314/599] person14 boxing d3 train
+  Per-video detection: 540/540 frames detected (100.0%), fallback 0 (0.0%)
+[315/599] person14 boxing d4 train
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[316/599] person14 handclapping d1 train
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[317/599] person14 handclapping d2 train
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[318/599] person14 handclapping d3 train
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[319/599] person14 handclapping d4 train
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[320/599] person14 handwaving d1 train
+  Per-video detection: 540/540 frames detected (100.0%), fallback 0 (0.0%)
+[321/599] person14 handwaving d2 train
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[322/599] person14 handwaving d3 train
+  Per-video detection: 300/300 frames detected (100.0%), fallback 0 (0.0%)
+[323/599] person14 handwaving d4 train
+  Per-video detection: 600/600 frames detected (100.0%), fallback 0 (0.0%)
+[324/599] person14 jogging d1 train
+  Per-video detection: 210/240 frames detected (87.5%), fallback 30 (12.5%)
+[325/599] person14 jogging d2 train
+  Per-video detection: 254/300 frames detected (84.7%), fallback 46 (15.3%)
+[326/599] person14 jogging d3 train
+  Per-video detection: 184/260 frames detected (70.8%), fallback 76 (29.2%)
+[327/599] person14 jogging d4 train
+  Per-video detection: 262/280 frames detected (93.6%), fallback 18 (6.4%)
+[328/599] person14 running d1 train
+  Per-video detection: 124/180 frames detected (68.9%), fallback 56 (31.1%)
+[329/599] person14 running d2 train
+  Per-video detection: 105/180 frames detected (58.3%), fallback 75 (41.7%)
+[330/599] person14 running d3 train
+  Per-video detection: 63/140 frames detected (45.0%), fallback 77 (55.0%)
+  WARNING: HOG missed majority of frames for this video — consider re-running with --detector bg
+[331/599] person14 running d4 train
+  Per-video detection: 147/200 frames detected (73.5%), fallback 53 (26.5%)
+[332/599] person14 walking d1 train
+  Per-video detection: 393/460 frames detected (85.4%), fallback 67 (14.6%)
+[333/599] person14 walking d2 train
+  Per-video detection: 512/560 frames detected (91.4%), fallback 48 (8.6%)
+[334/599] person14 walking d3 train
+  Per-video detection: 309/360 frames detected (85.8%), fallback 51 (14.2%)
+[335/599] person14 walking d4 train
+  Per-video detection: 418/420 frames detected (99.5%), fallback 2 (0.5%)
+[336/599] person15 boxing d1 train
+  Per-video detection: 360/360 frames detected (100.0%), fallback 0 (0.0%)
+[337/599] person15 boxing d2 train
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[338/599] person15 boxing d3 train
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[339/599] person15 boxing d4 train
+  Per-video detection: 260/260 frames detected (100.0%), fallback 0 (0.0%)
+[340/599] person15 handclapping d1 train
+  Per-video detection: 280/280 frames detected (100.0%), fallback 0 (0.0%)
+[341/599] person15 handclapping d2 train
+  Per-video detection: 240/240 frames detected (100.0%), fallback 0 (0.0%)
+[342/599] person15 handclapping d3 train
+  Per-video detection: 338/340 frames detected (99.4%), fallback 2 (0.6%)
+[343/599] person15 handclapping d4 train
+  Per-video detection: 298/300 frames detected (99.3%), fallback 2 (0.7%)
+[344/599] person15 handwaving d1 train
+  Per-video detection: 560/560 frames detected (100.0%), fallback 0 (0.0%)
+[345/599] person15 handwaving d2 train
+  Per-video detection: 660/660 frames detected (100.0%), fallback 0 (0.0%)
+[346/599] person15 handwaving d3 train
+  Per-video detection: 560/560 frames detected (100.0%), fallback 0 (0.0%)
+[347/599] person15 handwaving d4 train
+  Per-video detection: 626/640 frames detected (97.8%), fallback 14 (2.2%)
+[348/599] person15 jogging d1 train
+  Per-video detection: 204/240 frames detected (85.0%), fallback 36 (15.0%)
+[349/599] person15 jogging d2 train
+  Per-video detection: 218/260 frames detected (83.8%), fallback 42 (16.2%)
+[350/599] person15 jogging d3 train
+  Per-video detection: 113/160 frames detected (70.6%), fallback 47 (29.4%)
+[351/599] person15 jogging d4 train
+  Per-video detection: 305/320 frames detected (95.3%), fallback 15 (4.7%)
+[352/599] person15 running d1 train
+  Per-video detection: 116/160 frames detected (72.5%), fallback 44 (27.5%)
+[353/599] person15 running d2 train
+  Per-video detection: 109/160 frames detected (68.1%), fallback 51 (31.9%)
+[354/599] person15 running d3 train
+  Per-video detection: 87/160 frames detected (54.4%), fallback 73 (45.6%)
+[355/599] person15 running d4 train
+  Per-video detection: 109/160 frames detected (68.1%), fallback 51 (31.9%)
+[356/599] person15 walking d1 train
+  Per-video detection: 382/420 frames detected (91.0%), fallback 38 (9.0%)
+[357/599] person15 walking d2 train
+  Per-video detection: 547/580 frames detected (94.3%), fallback 33 (5.7%)
+[358/599] person15 walking d3 train
+  Per-video detection: 273/320 frames detected (85.3%), fallback 47 (14.7%)
+[359/599] person15 walking d4 train
+  Per-video detection: 513/540 frames detected (95.0%), fallback 27 (5.0%)
+[360/599] person16 boxing d1 train
+  Per-video detection: 457/460 frames detected (99.3%), fallback 3 (0.7%)
+[361/599] person16 boxing d2 train
+  Per-video detection: 360/360 frames detected (100.0%), fallback 0 (0.0%)
+[362/599] person16 boxing d3 train
+  Per-video detection: 520/520 frames detected (100.0%), fallback 0 (0.0%)
+[363/599] person16 boxing d4 train
+  Per-video detection: 419/420 frames detected (99.8%), fallback 1 (0.2%)
+[364/599] person16 handclapping d1 train
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[365/599] person16 handclapping d2 train
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[366/599] person16 handclapping d3 train
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[367/599] person16 handclapping d4 train
+  Per-video detection: 360/360 frames detected (100.0%), fallback 0 (0.0%)
+[368/599] person16 handwaving d1 train
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[369/599] person16 handwaving d2 train
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[370/599] person16 handwaving d3 train
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[371/599] person16 handwaving d4 train
+  Per-video detection: 540/540 frames detected (100.0%), fallback 0 (0.0%)
+[372/599] person16 jogging d1 train
+  Per-video detection: 217/240 frames detected (90.4%), fallback 23 (9.6%)
+[373/599] person16 jogging d2 train
+  Per-video detection: 291/320 frames detected (90.9%), fallback 29 (9.1%)
+[374/599] person16 jogging d3 train
+  Per-video detection: 104/200 frames detected (52.0%), fallback 96 (48.0%)
+[375/599] person16 jogging d4 train
+  Per-video detection: 280/300 frames detected (93.3%), fallback 20 (6.7%)
+[376/599] person16 running d1 train
+  Per-video detection: 63/180 frames detected (35.0%), fallback 117 (65.0%)
+  WARNING: HOG missed majority of frames for this video — consider re-running with --detector bg
+[377/599] person16 running d2 train
+  Per-video detection: 196/240 frames detected (81.7%), fallback 44 (18.3%)
+[378/599] person16 running d3 train
+  Per-video detection: 44/160 frames detected (27.5%), fallback 116 (72.5%)
+  WARNING: HOG missed majority of frames for this video — consider re-running with --detector bg
+[379/599] person16 running d4 train
+  Per-video detection: 96/160 frames detected (60.0%), fallback 64 (40.0%)
+[380/599] person16 walking d1 train
+  Per-video detection: 299/360 frames detected (83.1%), fallback 61 (16.9%)
+[381/599] person16 walking d2 train
+  Per-video detection: 466/560 frames detected (83.2%), fallback 94 (16.8%)
+[382/599] person16 walking d3 train
+  Per-video detection: 345/380 frames detected (90.8%), fallback 35 (9.2%)
+[383/599] person16 walking d4 train
+  Per-video detection: 370/420 frames detected (88.1%), fallback 50 (11.9%)
+[384/599] person17 boxing d1 train
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[385/599] person17 boxing d2 train
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[386/599] person17 boxing d3 train
+  Per-video detection: 458/460 frames detected (99.6%), fallback 2 (0.4%)
+[387/599] person17 boxing d4 train
+  Per-video detection: 295/300 frames detected (98.3%), fallback 5 (1.7%)
+[388/599] person17 handclapping d1 train
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[389/599] person17 handclapping d2 train
+  Per-video detection: 360/360 frames detected (100.0%), fallback 0 (0.0%)
+[390/599] person17 handclapping d3 train
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[391/599] person17 handclapping d4 train
+  Per-video detection: 333/340 frames detected (97.9%), fallback 7 (2.1%)
+[392/599] person17 handwaving d1 train
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[393/599] person17 handwaving d2 train
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[394/599] person17 handwaving d3 train
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[395/599] person17 handwaving d4 train
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[396/599] person17 jogging d1 train
+  Per-video detection: 229/240 frames detected (95.4%), fallback 11 (4.6%)
+[397/599] person17 jogging d2 train
+  Per-video detection: 353/380 frames detected (92.9%), fallback 27 (7.1%)
+[398/599] person17 jogging d3 train
+  Per-video detection: 103/180 frames detected (57.2%), fallback 77 (42.8%)
+[399/599] person17 jogging d4 train
+  Per-video detection: 220/240 frames detected (91.7%), fallback 20 (8.3%)
+[400/599] person17 running d1 train
+  Per-video detection: 37/100 frames detected (37.0%), fallback 63 (63.0%)
+  WARNING: HOG missed majority of frames for this video — consider re-running with --detector bg
+[401/599] person17 running d2 train
+  Per-video detection: 148/200 frames detected (74.0%), fallback 52 (26.0%)
+[402/599] person17 running d3 train
+  Per-video detection: 17/100 frames detected (17.0%), fallback 83 (83.0%)
+  WARNING: HOG missed majority of frames for this video — consider re-running with --detector bg
+[403/599] person17 running d4 train
+  Per-video detection: 111/180 frames detected (61.7%), fallback 69 (38.3%)
+[404/599] person17 walking d1 train
+  Per-video detection: 334/380 frames detected (87.9%), fallback 46 (12.1%)
+[405/599] person17 walking d2 train
+  Per-video detection: 582/620 frames detected (93.9%), fallback 38 (6.1%)
+[406/599] person17 walking d3 train
+  Per-video detection: 325/360 frames detected (90.3%), fallback 35 (9.7%)
+[407/599] person17 walking d4 train
+  Per-video detection: 388/420 frames detected (92.4%), fallback 32 (7.6%)
+[408/599] person18 boxing d1 train
+  Per-video detection: 580/580 frames detected (100.0%), fallback 0 (0.0%)
+[409/599] person18 boxing d2 train
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[410/599] person18 boxing d3 train
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[411/599] person18 boxing d4 train
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[412/599] person18 handclapping d1 train
+  Per-video detection: 478/480 frames detected (99.6%), fallback 2 (0.4%)
+[413/599] person18 handclapping d2 train
+  Per-video detection: 409/420 frames detected (97.4%), fallback 11 (2.6%)
+[414/599] person18 handclapping d3 train
+  Per-video detection: 508/520 frames detected (97.7%), fallback 12 (2.3%)
+[415/599] person18 handclapping d4 train
+  Per-video detection: 500/500 frames detected (100.0%), fallback 0 (0.0%)
+[416/599] person18 handwaving d1 train
+  Per-video detection: 540/540 frames detected (100.0%), fallback 0 (0.0%)
+[417/599] person18 handwaving d2 train
+  Per-video detection: 457/460 frames detected (99.3%), fallback 3 (0.7%)
+[418/599] person18 handwaving d3 train
+  Per-video detection: 514/520 frames detected (98.8%), fallback 6 (1.2%)
+[419/599] person18 handwaving d4 train
+  Per-video detection: 560/560 frames detected (100.0%), fallback 0 (0.0%)
+[420/599] person18 jogging d1 train
+  Per-video detection: 223/240 frames detected (92.9%), fallback 17 (7.1%)
+[421/599] person18 jogging d2 train
+  Per-video detection: 285/300 frames detected (95.0%), fallback 15 (5.0%)
+[422/599] person18 jogging d3 train
+  Per-video detection: 204/220 frames detected (92.7%), fallback 16 (7.3%)
+[423/599] person18 jogging d4 train
+  Per-video detection: 226/260 frames detected (86.9%), fallback 34 (13.1%)
+[424/599] person18 running d1 train
+  Per-video detection: 142/160 frames detected (88.8%), fallback 18 (11.2%)
+[425/599] person18 running d2 train
+  Per-video detection: 188/200 frames detected (94.0%), fallback 12 (6.0%)
+[426/599] person18 running d3 train
+  Per-video detection: 147/160 frames detected (91.9%), fallback 13 (8.1%)
+[427/599] person18 running d4 train
+  Per-video detection: 172/200 frames detected (86.0%), fallback 28 (14.0%)
+[428/599] person18 walking d1 train
+  Per-video detection: 304/340 frames detected (89.4%), fallback 36 (10.6%)
+[429/599] person18 walking d2 train
+  Per-video detection: 386/420 frames detected (91.9%), fallback 34 (8.1%)
+[430/599] person18 walking d3 train
+  Per-video detection: 283/320 frames detected (88.4%), fallback 37 (11.6%)
+[431/599] person18 walking d4 train
+  Per-video detection: 319/320 frames detected (99.7%), fallback 1 (0.3%)
+[432/599] person19 boxing d1 validation
+  Per-video detection: 320/320 frames detected (100.0%), fallback 0 (0.0%)
+[433/599] person19 boxing d2 validation
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[434/599] person19 boxing d3 validation
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[435/599] person19 boxing d4 validation
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[436/599] person19 handclapping d1 validation
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[437/599] person19 handclapping d2 validation
+  Per-video detection: 360/360 frames detected (100.0%), fallback 0 (0.0%)
+[438/599] person19 handclapping d3 validation
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[439/599] person19 handclapping d4 validation
+  Per-video detection: 360/360 frames detected (100.0%), fallback 0 (0.0%)
+[440/599] person19 handwaving d1 validation
+  Per-video detection: 620/620 frames detected (100.0%), fallback 0 (0.0%)
+[441/599] person19 handwaving d2 validation
+  Per-video detection: 540/540 frames detected (100.0%), fallback 0 (0.0%)
+[442/599] person19 handwaving d3 validation
+  Per-video detection: 600/600 frames detected (100.0%), fallback 0 (0.0%)
+[443/599] person19 handwaving d4 validation
+  Per-video detection: 540/540 frames detected (100.0%), fallback 0 (0.0%)
+[444/599] person19 jogging d1 validation
+  Per-video detection: 191/220 frames detected (86.8%), fallback 29 (13.2%)
+[445/599] person19 jogging d2 validation
+  Per-video detection: 340/360 frames detected (94.4%), fallback 20 (5.6%)
+[446/599] person19 jogging d3 validation
+  Per-video detection: 117/160 frames detected (73.1%), fallback 43 (26.9%)
+[447/599] person19 jogging d4 validation
+  Per-video detection: 244/260 frames detected (93.8%), fallback 16 (6.2%)
+[448/599] person19 running d1 validation
+  Per-video detection: 150/160 frames detected (93.8%), fallback 10 (6.2%)
+[449/599] person19 running d2 validation
+  Per-video detection: 228/260 frames detected (87.7%), fallback 32 (12.3%)
+[450/599] person19 running d3 validation
+  Per-video detection: 154/160 frames detected (96.2%), fallback 6 (3.8%)
+[451/599] person19 running d4 validation
+  Per-video detection: 132/160 frames detected (82.5%), fallback 28 (17.5%)
+[452/599] person19 walking d1 validation
+  Per-video detection: 298/320 frames detected (93.1%), fallback 22 (6.9%)
+[453/599] person19 walking d2 validation
+  Per-video detection: 504/540 frames detected (93.3%), fallback 36 (6.7%)
+[454/599] person19 walking d3 validation
+  Per-video detection: 305/320 frames detected (95.3%), fallback 15 (4.7%)
+[455/599] person19 walking d4 validation
+  Per-video detection: 405/440 frames detected (92.0%), fallback 35 (8.0%)
+[456/599] person20 boxing d1 validation
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[457/599] person20 boxing d2 validation
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[458/599] person20 boxing d3 validation
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[459/599] person20 boxing d4 validation
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[460/599] person20 handclapping d1 validation
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[461/599] person20 handclapping d2 validation
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[462/599] person20 handclapping d3 validation
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[463/599] person20 handclapping d4 validation
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[464/599] person20 handwaving d1 validation
+  Per-video detection: 500/500 frames detected (100.0%), fallback 0 (0.0%)
+[465/599] person20 handwaving d2 validation
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[466/599] person20 handwaving d3 validation
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[467/599] person20 handwaving d4 validation
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[468/599] person20 jogging d1 validation
+  Per-video detection: 190/200 frames detected (95.0%), fallback 10 (5.0%)
+[469/599] person20 jogging d2 validation
+  Per-video detection: 279/320 frames detected (87.2%), fallback 41 (12.8%)
+[470/599] person20 jogging d3 validation
+  Per-video detection: 151/160 frames detected (94.4%), fallback 9 (5.6%)
+[471/599] person20 jogging d4 validation
+  Per-video detection: 224/240 frames detected (93.3%), fallback 16 (6.7%)
+[472/599] person20 running d1 validation
+  Per-video detection: 66/80 frames detected (82.5%), fallback 14 (17.5%)
+[473/599] person20 running d2 validation
+  Per-video detection: 176/200 frames detected (88.0%), fallback 24 (12.0%)
+[474/599] person20 running d3 validation
+  Per-video detection: 72/80 frames detected (90.0%), fallback 8 (10.0%)
+[475/599] person20 running d4 validation
+  Per-video detection: 153/160 frames detected (95.6%), fallback 7 (4.4%)
+[476/599] person20 walking d1 validation
+  Per-video detection: 326/340 frames detected (95.9%), fallback 14 (4.1%)
+[477/599] person20 walking d2 validation
+  Per-video detection: 549/600 frames detected (91.5%), fallback 51 (8.5%)
+[478/599] person20 walking d3 validation
+  Per-video detection: 226/260 frames detected (86.9%), fallback 34 (13.1%)
+[479/599] person20 walking d4 validation
+  Per-video detection: 327/360 frames detected (90.8%), fallback 33 (9.2%)
+[480/599] person21 boxing d1 validation
+  Per-video detection: 320/320 frames detected (100.0%), fallback 0 (0.0%)
+[481/599] person21 boxing d2 validation
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[482/599] person21 boxing d3 validation
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[483/599] person21 boxing d4 validation
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[484/599] person21 handclapping d1 validation
+  Per-video detection: 560/560 frames detected (100.0%), fallback 0 (0.0%)
+[485/599] person21 handclapping d2 validation
+  Per-video detection: 520/520 frames detected (100.0%), fallback 0 (0.0%)
+[486/599] person21 handclapping d3 validation
+  Per-video detection: 372/380 frames detected (97.9%), fallback 8 (2.1%)
+[487/599] person21 handclapping d4 validation
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[488/599] person21 handwaving d1 validation
+  Per-video detection: 560/560 frames detected (100.0%), fallback 0 (0.0%)
+[489/599] person21 handwaving d2 validation
+  Per-video detection: 620/620 frames detected (100.0%), fallback 0 (0.0%)
+[490/599] person21 handwaving d3 validation
+  Per-video detection: 479/480 frames detected (99.8%), fallback 1 (0.2%)
+[491/599] person21 handwaving d4 validation
+  Per-video detection: 500/500 frames detected (100.0%), fallback 0 (0.0%)
+[492/599] person21 jogging d1 validation
+  Per-video detection: 151/160 frames detected (94.4%), fallback 9 (5.6%)
+[493/599] person21 jogging d2 validation
+  Per-video detection: 303/360 frames detected (84.2%), fallback 57 (15.8%)
+[494/599] person21 jogging d3 validation
+  Per-video detection: 151/160 frames detected (94.4%), fallback 9 (5.6%)
+[495/599] person21 jogging d4 validation
+  Per-video detection: 239/260 frames detected (91.9%), fallback 21 (8.1%)
+[496/599] person21 running d1 validation
+  Per-video detection: 84/100 frames detected (84.0%), fallback 16 (16.0%)
+[497/599] person21 running d2 validation
+  Per-video detection: 184/240 frames detected (76.7%), fallback 56 (23.3%)
+[498/599] person21 running d3 validation
+  Per-video detection: 83/100 frames detected (83.0%), fallback 17 (17.0%)
+[499/599] person21 running d4 validation
+  Per-video detection: 98/160 frames detected (61.3%), fallback 62 (38.8%)
+[500/599] person21 walking d1 validation
+  Per-video detection: 278/300 frames detected (92.7%), fallback 22 (7.3%)
+[501/599] person21 walking d2 validation
+  Per-video detection: 544/580 frames detected (93.8%), fallback 36 (6.2%)
+[502/599] person21 walking d3 validation
+  Per-video detection: 221/240 frames detected (92.1%), fallback 19 (7.9%)
+[503/599] person21 walking d4 validation
+  Per-video detection: 374/440 frames detected (85.0%), fallback 66 (15.0%)
+[504/599] person22 boxing d1 test
+  Per-video detection: 260/260 frames detected (100.0%), fallback 0 (0.0%)
+[505/599] person22 boxing d2 test
+  Per-video detection: 280/280 frames detected (100.0%), fallback 0 (0.0%)
+[506/599] person22 boxing d3 test
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[507/599] person22 boxing d4 test
+  Per-video detection: 357/360 frames detected (99.2%), fallback 3 (0.8%)
+[508/599] person22 handclapping d1 test
+  Per-video detection: 300/300 frames detected (100.0%), fallback 0 (0.0%)
+[509/599] person22 handclapping d2 test
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[510/599] person22 handclapping d3 test
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[511/599] person22 handclapping d4 test
+  Per-video detection: 419/420 frames detected (99.8%), fallback 1 (0.2%)
+[512/599] person22 handwaving d1 test
+  Per-video detection: 500/500 frames detected (100.0%), fallback 0 (0.0%)
+[513/599] person22 handwaving d2 test
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[514/599] person22 handwaving d3 test
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[515/599] person22 handwaving d4 test
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[516/599] person22 jogging d1 test
+  Per-video detection: 171/180 frames detected (95.0%), fallback 9 (5.0%)
+[517/599] person22 jogging d2 test
+  Per-video detection: 308/320 frames detected (96.2%), fallback 12 (3.8%)
+[518/599] person22 jogging d3 test
+  Per-video detection: 149/160 frames detected (93.1%), fallback 11 (6.9%)
+[519/599] person22 jogging d4 test
+  Per-video detection: 219/240 frames detected (91.2%), fallback 21 (8.8%)
+[520/599] person22 running d1 test
+  Per-video detection: 67/80 frames detected (83.8%), fallback 13 (16.2%)
+[521/599] person22 running d2 test
+  Per-video detection: 152/160 frames detected (95.0%), fallback 8 (5.0%)
+[522/599] person22 running d3 test
+  Per-video detection: 90/100 frames detected (90.0%), fallback 10 (10.0%)
+[523/599] person22 running d4 test
+  Per-video detection: 121/160 frames detected (75.6%), fallback 39 (24.4%)
+[524/599] person22 walking d1 test
+  Per-video detection: 355/380 frames detected (93.4%), fallback 25 (6.6%)
+[525/599] person22 walking d2 test
+  Per-video detection: 502/580 frames detected (86.6%), fallback 78 (13.4%)
+[526/599] person22 walking d3 test
+  Per-video detection: 314/340 frames detected (92.4%), fallback 26 (7.6%)
+[527/599] person22 walking d4 test
+  Per-video detection: 413/440 frames detected (93.9%), fallback 27 (6.1%)
+[528/599] person23 boxing d1 validation
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[529/599] person23 boxing d2 validation
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[530/599] person23 boxing d3 validation
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[531/599] person23 boxing d4 validation
+  Per-video detection: 320/320 frames detected (100.0%), fallback 0 (0.0%)
+[532/599] person23 handclapping d1 validation
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[533/599] person23 handclapping d2 validation
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[534/599] person23 handclapping d3 validation
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[535/599] person23 handclapping d4 validation
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[536/599] person23 handwaving d1 validation
+  Per-video detection: 540/540 frames detected (100.0%), fallback 0 (0.0%)
+[537/599] person23 handwaving d2 validation
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[538/599] person23 handwaving d3 validation
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[539/599] person23 handwaving d4 validation
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[540/599] person23 jogging d1 validation
+  Per-video detection: 151/160 frames detected (94.4%), fallback 9 (5.6%)
+[541/599] person23 jogging d2 validation
+  Per-video detection: 381/420 frames detected (90.7%), fallback 39 (9.3%)
+[542/599] person23 jogging d3 validation
+  Per-video detection: 152/160 frames detected (95.0%), fallback 8 (5.0%)
+[543/599] person23 jogging d4 validation
+  Per-video detection: 227/240 frames detected (94.6%), fallback 13 (5.4%)
+[544/599] person23 running d1 validation
+  Per-video detection: 67/80 frames detected (83.8%), fallback 13 (16.2%)
+[545/599] person23 running d2 validation
+  Per-video detection: 214/240 frames detected (89.2%), fallback 26 (10.8%)
+[546/599] person23 running d3 validation
+  Per-video detection: 44/80 frames detected (55.0%), fallback 36 (45.0%)
+[547/599] person23 running d4 validation
+  Per-video detection: 143/160 frames detected (89.4%), fallback 17 (10.6%)
+[548/599] person23 walking d1 validation
+  Per-video detection: 320/320 frames detected (100.0%), fallback 0 (0.0%)
+[549/599] person23 walking d2 validation
+  Per-video detection: 643/680 frames detected (94.6%), fallback 37 (5.4%)
+[550/599] person23 walking d3 validation
+  Per-video detection: 282/300 frames detected (94.0%), fallback 18 (6.0%)
+[551/599] person23 walking d4 validation
+  Per-video detection: 322/340 frames detected (94.7%), fallback 18 (5.3%)
+[552/599] person24 boxing d1 validation
+  Per-video detection: 320/320 frames detected (100.0%), fallback 0 (0.0%)
+[553/599] person24 boxing d2 validation
+  Per-video detection: 400/400 frames detected (100.0%), fallback 0 (0.0%)
+[554/599] person24 boxing d3 validation
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[555/599] person24 boxing d4 validation
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[556/599] person24 handclapping d1 validation
+  Per-video detection: 320/320 frames detected (100.0%), fallback 0 (0.0%)
+[557/599] person24 handclapping d2 validation
+  Per-video detection: 340/340 frames detected (100.0%), fallback 0 (0.0%)
+[558/599] person24 handclapping d3 validation
+  Per-video detection: 360/360 frames detected (100.0%), fallback 0 (0.0%)
+[559/599] person24 handclapping d4 validation
+  Per-video detection: 320/320 frames detected (100.0%), fallback 0 (0.0%)
+[560/599] person24 handwaving d1 validation
+  Per-video detection: 540/540 frames detected (100.0%), fallback 0 (0.0%)
+[561/599] person24 handwaving d2 validation
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[562/599] person24 handwaving d3 validation
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[563/599] person24 handwaving d4 validation
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[564/599] person24 jogging d1 validation
+  Per-video detection: 117/160 frames detected (73.1%), fallback 43 (26.9%)
+[565/599] person24 jogging d2 validation
+  Per-video detection: 363/400 frames detected (90.8%), fallback 37 (9.2%)
+[566/599] person24 jogging d3 validation
+  Per-video detection: 164/200 frames detected (82.0%), fallback 36 (18.0%)
+[567/599] person24 jogging d4 validation
+  Per-video detection: 304/320 frames detected (95.0%), fallback 16 (5.0%)
+[568/599] person24 running d1 validation
+  Per-video detection: 42/80 frames detected (52.5%), fallback 38 (47.5%)
+[569/599] person24 running d2 validation
+  Per-video detection: 269/300 frames detected (89.7%), fallback 31 (10.3%)
+[570/599] person24 running d3 validation
+  Per-video detection: 132/140 frames detected (94.3%), fallback 8 (5.7%)
+[571/599] person24 running d4 validation
+  Per-video detection: 110/160 frames detected (68.8%), fallback 50 (31.2%)
+[572/599] person24 walking d1 validation
+  Per-video detection: 247/280 frames detected (88.2%), fallback 33 (11.8%)
+[573/599] person24 walking d2 validation
+  Per-video detection: 571/660 frames detected (86.5%), fallback 89 (13.5%)
+[574/599] person24 walking d3 validation
+  Per-video detection: 256/300 frames detected (85.3%), fallback 44 (14.7%)
+[575/599] person24 walking d4 validation
+  Per-video detection: 300/320 frames detected (93.8%), fallback 20 (6.2%)
+[576/599] person25 boxing d1 validation
+  Per-video detection: 357/360 frames detected (99.2%), fallback 3 (0.8%)
+[577/599] person25 boxing d2 validation
+  Per-video detection: 420/420 frames detected (100.0%), fallback 0 (0.0%)
+[578/599] person25 boxing d3 validation
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[579/599] person25 boxing d4 validation
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[580/599] person25 handclapping d1 validation
+  Per-video detection: 380/380 frames detected (100.0%), fallback 0 (0.0%)
+[581/599] person25 handclapping d2 validation
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[582/599] person25 handclapping d3 validation
+  Per-video detection: 398/400 frames detected (99.5%), fallback 2 (0.5%)
+[583/599] person25 handclapping d4 validation
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[584/599] person25 handwaving d1 validation
+  Per-video detection: 460/460 frames detected (100.0%), fallback 0 (0.0%)
+[585/599] person25 handwaving d2 validation
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[586/599] person25 handwaving d3 validation
+  Per-video detection: 480/480 frames detected (100.0%), fallback 0 (0.0%)
+[587/599] person25 handwaving d4 validation
+  Per-video detection: 440/440 frames detected (100.0%), fallback 0 (0.0%)
+[588/599] person25 jogging d1 validation
+  Per-video detection: 103/160 frames detected (64.4%), fallback 57 (35.6%)
+[589/599] person25 jogging d2 validation
+  Per-video detection: 262/320 frames detected (81.9%), fallback 58 (18.1%)
+[590/599] person25 jogging d3 validation
+  Per-video detection: 156/200 frames detected (78.0%), fallback 44 (22.0%)
+[591/599] person25 jogging d4 validation
+  Per-video detection: 222/240 frames detected (92.5%), fallback 18 (7.5%)
+[592/599] person25 running d1 validation
+  Per-video detection: 75/140 frames detected (53.6%), fallback 65 (46.4%)
+[593/599] person25 running d2 validation
+  Per-video detection: 180/240 frames detected (75.0%), fallback 60 (25.0%)
+[594/599] person25 running d3 validation
+  Per-video detection: 142/160 frames detected (88.8%), fallback 18 (11.2%)
+[595/599] person25 running d4 validation
+  Per-video detection: 122/160 frames detected (76.2%), fallback 38 (23.8%)
+[596/599] person25 walking d1 validation
+  Per-video detection: 322/360 frames detected (89.4%), fallback 38 (10.6%)
+[597/599] person25 walking d2 validation
+  Per-video detection: 552/620 frames detected (89.0%), fallback 68 (11.0%)
+[598/599] person25 walking d3 validation
+  Per-video detection: 358/400 frames detected (89.5%), fallback 42 (10.5%)
+[599/599] person25 walking d4 validation
+  Per-video detection: 365/400 frames detected (91.2%), fallback 35 (8.8%)
+Wrote per-video detection stats to: output/detection_stats_per_video.json
+
+============================================================
+Dataset preparation completed!
+Total 20-frame sequences: 10277
+============================================================
+Wrote detection stats to: output/detection_stats.json
