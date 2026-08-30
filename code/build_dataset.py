@@ -325,6 +325,12 @@ def extract_sequences(
         "fallback": 0
     }
 
+    # KLT/template tracker state (per-sequence)
+    last_bbox = None
+    last_gray = None
+    last_template = None
+    last_pts = None
+
     for start, end in ranges:
 
         length = end - start + 1
@@ -403,19 +409,110 @@ def extract_sequences(
                     # default: hog
                     detected = detect_person_hog(frame)
 
+                # If detection failed, try KLT + template fallback using previous bbox
+                if detected is None and last_bbox is not None:
+
+                    # prepare gray frames
+                    try:
+                        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+                    except Exception:
+                        gray = None
+
+                    tracked = False
+
+                    # 1) KLT optical flow on tracked points
+                    if last_gray is not None and last_pts is not None and gray is not None:
+                        try:
+                            new_pts, status, err = cv2.calcOpticalFlowPyrLK(
+                                last_gray, gray, last_pts, None,
+                                winSize=(15, 15), maxLevel=2,
+                                criteria=(cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_COUNT, 10, 0.03)
+                            )
+
+                            if new_pts is not None and status is not None:
+                                good_old = last_pts[status.flatten() == 1]
+                                good_new = new_pts[status.flatten() == 1]
+
+                                if len(good_old) >= 3:
+                                    # estimate median displacement
+                                    disps = good_new - good_old
+                                    dx = int(np.median(disps[:, 0]))
+                                    dy = int(np.median(disps[:, 1]))
+
+                                    x, y, w, h = last_bbox
+                                    frame_h, frame_w = frame.shape[:2]
+                                    nx = max(0, min(frame_w - w, x + dx))
+                                    ny = max(0, min(frame_h - h, y + dy))
+                                    detected = (nx, ny, w, h)
+                                    tracked = True
+                        except Exception:
+                            tracked = False
+
+                    # 2) Template matching fallback within an expanded search window
+                    if not tracked and last_template is not None:
+                        try:
+                            x, y, w, h = last_bbox
+                            fh, fw = frame.shape[:2]
+                            pad = int(max(w, h) * 1.5)
+                            sx = max(0, x - pad)
+                            sy = max(0, y - pad)
+                            ex = min(fw, x + w + pad)
+                            ey = min(fh, y + h + pad)
+
+                            search = frame[sy:ey, sx:ex]
+                            if search.size != 0 and last_template.size != 0:
+                                search_gray = cv2.cvtColor(search, cv2.COLOR_BGR2GRAY)
+                                res = cv2.matchTemplate(search_gray, last_template, cv2.TM_CCOEFF_NORMED)
+                                min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)
+                                # threshold can be tuned; 0.48 is a reasonable start
+                                if max_val > 0.48:
+                                    tx, ty = max_loc
+                                    nx = sx + tx
+                                    ny = sy + ty
+                                    detected = (nx, ny, last_template.shape[1], last_template.shape[0])
+                                    tracked = True
+                        except Exception:
+                            tracked = False
+
                 if detected is not None:
 
                     stats["detected"] += 1
 
                     x, y, w, h = detected
 
-                    # safe crop
+                    # safe crop and clamp
                     x = int(max(0, x))
                     y = int(max(0, y))
                     w = int(max(1, w))
                     h = int(max(1, h))
 
+                    # clamp to frame
+                    fh, fw = frame.shape[:2]
+                    x = min(x, fw - 1)
+                    y = min(y, fh - 1)
+                    w = min(w, fw - x)
+                    h = min(h, fh - y)
+
                     crop = frame[y:y + h, x:x + w]
+
+                    # update KLT/template state: compute good features in current crop
+                    try:
+                        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
+                        last_template = cv2.cvtColor(crop, cv2.COLOR_BGR2GRAY)
+                        pts = cv2.goodFeaturesToTrack(last_template, maxCorners=50, qualityLevel=0.01, minDistance=4)
+                        if pts is not None:
+                            pts = pts.reshape(-1, 2)
+                            pts[:, 0] += x
+                            pts[:, 1] += y
+                            last_pts = pts.reshape(-1, 1, 2).astype(np.float32)
+                        else:
+                            last_pts = None
+
+                        last_gray = gray
+                        last_bbox = (x, y, w, h)
+                    except Exception:
+                        pass
 
                 else:
 
